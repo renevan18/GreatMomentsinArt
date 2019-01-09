@@ -1,0 +1,1100 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2231ED5521E437BA00BD3451 /* birdGone.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2231ED2521E437B800BD3451 /* birdGone.sks */; };
+		2231ED5621E437BA00BD3451 /* BoschSceneThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231ED2621E437B800BD3451 /* BoschSceneThree.m */; };
+		2231ED5721E437BA00BD3451 /* BoschSceneEight.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2231ED2721E437B800BD3451 /* BoschSceneEight.sks */; };
+		2231ED5821E437BA00BD3451 /* BoschSceneFive.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2231ED2821E437B800BD3451 /* BoschSceneFive.sks */; };
+		2231ED5921E437BA00BD3451 /* bird2.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 2231ED2A21E437B800BD3451 /* bird2.atlas */; };
+		2231ED5A21E437BA00BD3451 /* BoschSt3.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231ED2C21E437B800BD3451 /* BoschSt3.m */; };
+		2231ED5B21E437BA00BD3451 /* birdau.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2231ED2D21E437B800BD3451 /* birdau.mp3 */; };
+		2231ED5C21E437BA00BD3451 /* BoschSceneStart.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2231ED2E21E437B800BD3451 /* BoschSceneStart.sks */; };
+		2231ED5D21E437BA00BD3451 /* harpback.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2231ED3021E437B800BD3451 /* harpback.mp3 */; };
+		2231ED5E21E437BA00BD3451 /* BoschGameOver.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2231ED3121E437B800BD3451 /* BoschGameOver.sks */; };
+		2231ED5F21E437BA00BD3451 /* adamau.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2231ED3421E437B800BD3451 /* adamau.mp3 */; };
+		2231ED6021E437BA00BD3451 /* BoschSceneSix.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231ED3521E437B800BD3451 /* BoschSceneSix.m */; };
+		2231ED6121E437BA00BD3451 /* BoschViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231ED3621E437B800BD3451 /* BoschViewController.m */; };
+		2231ED6221E437BA00BD3451 /* BoschSt2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2231ED3721E437B800BD3451 /* BoschSt2.sks */; };
+		2231ED6321E437BA00BD3451 /* applehit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2231ED3821E437B800BD3451 /* applehit.mp3 */; };
+		2231ED6421E437BA00BD3451 /* BoschSceneNine.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2231ED3921E437B800BD3451 /* BoschSceneNine.sks */; };
+		2231ED6521E437BA00BD3451 /* BoschSceneTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231ED3A21E437B800BD3451 /* BoschSceneTwo.m */; };
+		2231ED6621E437BA00BD3451 /* BoschSceneTwo.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2231ED3B21E437B800BD3451 /* BoschSceneTwo.sks */; };
+		2231ED6721E437BA00BD3451 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 2231ED3C21E437B800BD3451 /* spark.png */; };
+		2231ED6821E437BA00BD3451 /* BoschSceneOne.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2231ED3E21E437B900BD3451 /* BoschSceneOne.sks */; };
+		2231ED6921E437BA00BD3451 /* BoschSceneThree.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2231ED3F21E437B900BD3451 /* BoschSceneThree.sks */; };
+		2231ED6A21E437BA00BD3451 /* BoschSceneNine.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231ED4021E437B900BD3451 /* BoschSceneNine.m */; };
+		2231ED6B21E437BA00BD3451 /* BoschSceneStart.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231ED4121E437B900BD3451 /* BoschSceneStart.m */; };
+		2231ED6C21E437BA00BD3451 /* BoschGameOver.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231ED4321E437B900BD3451 /* BoschGameOver.m */; };
+		2231ED6D21E437BA00BD3451 /* BoschSceneSeven.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231ED4621E437B900BD3451 /* BoschSceneSeven.m */; };
+		2231ED6E21E437BA00BD3451 /* BoschSt3.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2231ED4721E437B900BD3451 /* BoschSt3.sks */; };
+		2231ED6F21E437BA00BD3451 /* BoschSceneFour.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2231ED4821E437B900BD3451 /* BoschSceneFour.sks */; };
+		2231ED7021E437BA00BD3451 /* BoschSt2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231ED4A21E437B900BD3451 /* BoschSt2.m */; };
+		2231ED7121E437BA00BD3451 /* BoschSceneSix.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2231ED4B21E437B900BD3451 /* BoschSceneSix.sks */; };
+		2231ED7221E437BA00BD3451 /* BoschSceneEight.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231ED4D21E437BA00BD3451 /* BoschSceneEight.m */; };
+		2231ED7321E437BA00BD3451 /* poof.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2231ED4E21E437BA00BD3451 /* poof.sks */; };
+		2231ED7421E437BA00BD3451 /* birdanima.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 2231ED4F21E437BA00BD3451 /* birdanima.atlas */; };
+		2231ED7521E437BA00BD3451 /* BoschSceneSeven.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2231ED5121E437BA00BD3451 /* BoschSceneSeven.sks */; };
+		2231ED7621E437BA00BD3451 /* BoschSceneFour.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231ED5221E437BA00BD3451 /* BoschSceneFour.m */; };
+		2231ED7721E437BA00BD3451 /* BoschSceneOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231ED5321E437BA00BD3451 /* BoschSceneOne.m */; };
+		2231ED7821E437BA00BD3451 /* BoschSceneFive.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231ED5421E437BA00BD3451 /* BoschSceneFive.m */; };
+		2231ED7B21E467FD00BD3451 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231ED7A21E467FD00BD3451 /* SettingsViewController.swift */; };
+		2231ED7D21E481BE00BD3451 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231ED7C21E481BE00BD3451 /* AppDelegate.swift */; };
+		2231ED9021E48D9B00BD3451 /* CrunchGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231ED7F21E48D9B00BD3451 /* CrunchGameViewController.swift */; };
+		2231ED9121E48D9B00BD3451 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2231ED8021E48D9B00BD3451 /* Assets.xcassets */; };
+		2231ED9221E48D9B00BD3451 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 2231ED8121E48D9B00BD3451 /* Sprites.atlas */; };
+		2231ED9321E48D9B00BD3451 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231ED8221E48D9B00BD3451 /* Extensions.swift */; };
+		2231ED9421E48D9B00BD3451 /* Cookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231ED8321E48D9B00BD3451 /* Cookie.swift */; };
+		2231ED9521E48D9B00BD3451 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231ED8421E48D9B00BD3451 /* Array2D.swift */; };
+		2231ED9721E48D9B00BD3451 /* CrunchGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231ED8621E48D9B00BD3451 /* CrunchGameScene.swift */; };
+		2231ED9821E48D9B00BD3451 /* Level_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 2231ED8821E48D9B00BD3451 /* Level_2.json */; };
+		2231ED9921E48D9B00BD3451 /* Level_3.json in Resources */ = {isa = PBXBuildFile; fileRef = 2231ED8921E48D9B00BD3451 /* Level_3.json */; };
+		2231ED9A21E48D9B00BD3451 /* Level_4.json in Resources */ = {isa = PBXBuildFile; fileRef = 2231ED8A21E48D9B00BD3451 /* Level_4.json */; };
+		2231ED9B21E48D9B00BD3451 /* Level_0.json in Resources */ = {isa = PBXBuildFile; fileRef = 2231ED8B21E48D9B00BD3451 /* Level_0.json */; };
+		2231ED9C21E48D9B00BD3451 /* Level_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 2231ED8C21E48D9B00BD3451 /* Level_1.json */; };
+		2231ED9D21E48D9B00BD3451 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231ED8D21E48D9B00BD3451 /* Tile.swift */; };
+		2231ED9E21E48D9B00BD3451 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231ED8E21E48D9B00BD3451 /* Level.swift */; };
+		2231EDCA21E4A9F600BD3451 /* backgrounds.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 2231EDA721E4A9F500BD3451 /* backgrounds.atlas */; };
+		2231EDCB21E4A9F600BD3451 /* flappy_sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 2231EDA821E4A9F500BD3451 /* flappy_sprites.atlas */; };
+		2231EDD421E4A9F600BD3451 /* hitGround.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2231EDBC21E4A9F500BD3451 /* hitGround.wav */; };
+		2231EDD521E4A9F600BD3451 /* whack.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2231EDBD21E4A9F500BD3451 /* whack.wav */; };
+		2231EDD621E4A9F600BD3451 /* flapping.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2231EDBE21E4A9F500BD3451 /* flapping.wav */; };
+		2231EDD721E4A9F600BD3451 /* falling.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2231EDBF21E4A9F500BD3451 /* falling.wav */; };
+		2231EDD821E4A9F600BD3451 /* coin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2231EDC021E4A9F500BD3451 /* coin.wav */; };
+		2231EDD921E4A9F600BD3451 /* pop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2231EDC121E4A9F500BD3451 /* pop.wav */; };
+		2231EDDA21E4A9F600BD3451 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2231EDC221E4A9F500BD3451 /* ding.wav */; };
+		2231EDDB21E4A9F600BD3451 /* FlappyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231EDC321E4A9F500BD3451 /* FlappyViewController.m */; };
+		2231EDDC21E4A9F600BD3451 /* FlappyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231EDC421E4A9F500BD3451 /* FlappyScene.m */; };
+		2231EDDF21E5B9D800BD3451 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2231EDDE21E5B9D800BD3451 /* SpriteKit.framework */; };
+		2231EDE121E5BAFB00BD3451 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2231EDE021E5BAFB00BD3451 /* CoreGraphics.framework */; };
+		2231EDF021E5CA4000BD3451 /* Pig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231EDE321E5CA4000BD3451 /* Pig.m */; };
+		2231EDF221E5CA4000BD3451 /* hogville_sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 2231EDE721E5CA4000BD3451 /* hogville_sprites.atlas */; };
+		2231EDF321E5CA4000BD3451 /* bg_2_grassy.png in Resources */ = {isa = PBXBuildFile; fileRef = 2231EDE921E5CA4000BD3451 /* bg_2_grassy.png */; };
+		2231EDF421E5CA4000BD3451 /* bg_1_dusty.png in Resources */ = {isa = PBXBuildFile; fileRef = 2231EDEA21E5CA4000BD3451 /* bg_1_dusty.png */; };
+		2231EDF521E5CA4000BD3451 /* HogvilleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231EDEB21E5CA4000BD3451 /* HogvilleViewController.m */; };
+		2231EDF621E5CA4000BD3451 /* HogvilleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231EDED21E5CA4000BD3451 /* HogvilleScene.m */; };
+		2231EDF721E5CA4000BD3451 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2231EDEE21E5CA4000BD3451 /* Images.xcassets */; };
+		2231EE0A21E5D5C600BD3451 /* SKAction+SKTSpecialEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231EDF921E5D5C600BD3451 /* SKAction+SKTSpecialEffects.m */; };
+		2231EE0B21E5D5C600BD3451 /* SKAction+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231EDFB21E5D5C600BD3451 /* SKAction+SKTExtras.m */; };
+		2231EE0C21E5D5C600BD3451 /* SKNode+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231EE0021E5D5C600BD3451 /* SKNode+SKTExtras.m */; };
+		2231EE0D21E5D5C600BD3451 /* SKEmitterNode+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231EE0221E5D5C600BD3451 /* SKEmitterNode+SKTExtras.m */; };
+		2231EE0E21E5D5C600BD3451 /* SKTAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231EE0521E5D5C600BD3451 /* SKTAudio.m */; };
+		2231EE0F21E5D5C600BD3451 /* SKTEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231EE0621E5D5C600BD3451 /* SKTEffects.m */; };
+		2231EE1021E5D5C600BD3451 /* SKTTimingFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231EE0721E5D5C600BD3451 /* SKTTimingFunctions.m */; };
+		2231EE1121E5D5C600BD3451 /* SKNode+SKTDebugDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231EE0921E5D5C600BD3451 /* SKNode+SKTDebugDraw.m */; };
+		2231EE2821E5D65300BD3451 /* hurt.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE1421E5D65300BD3451 /* hurt.wav */; };
+		2231EE2921E5D65300BD3451 /* replay.png in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE1521E5D65300BD3451 /* replay.png */; };
+		2231EE2A21E5D65300BD3451 /* LFCGzipUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231EE1621E5D65300BD3451 /* LFCGzipUtility.m */; };
+		2231EE2B21E5D65300BD3451 /* jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE1721E5D65300BD3451 /* jump.wav */; };
+		2231EE2C21E5D65300BD3451 /* tileSet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE1821E5D65300BD3451 /* tileSet@2x.png */; };
+		2231EE2D21E5D65300BD3451 /* GameLevelScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231EE1A21E5D65300BD3451 /* GameLevelScene.m */; };
+		2231EE2E21E5D65300BD3451 /* KoalioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231EE1B21E5D65300BD3451 /* KoalioViewController.m */; };
+		2231EE2F21E5D65300BD3451 /* koalio_sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE1C21E5D65300BD3451 /* koalio_sprites.atlas */; };
+		2231EE3121E5D65300BD3451 /* level1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE1E21E5D65300BD3451 /* level1.tmx */; };
+		2231EE3221E5D65300BD3451 /* JSTileMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231EE1F21E5D65300BD3451 /* JSTileMap.m */; };
+		2231EE3321E5D65300BD3451 /* replay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE2021E5D65300BD3451 /* replay@2x.png */; };
+		2231EE3421E5D65300BD3451 /* tileSet.png in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE2221E5D65300BD3451 /* tileSet.png */; };
+		2231EE3521E5D65300BD3451 /* level1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE2321E5D65300BD3451 /* level1.mp3 */; };
+		2231EE3621E5D65300BD3451 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231EE2721E5D65300BD3451 /* Player.m */; };
+		2231EE5121E5D94B00BD3451 /* InvadersGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231EE3821E5D94B00BD3451 /* InvadersGameViewController.swift */; };
+		2231EE5221E5D94B00BD3451 /* InvadersGameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231EE3921E5D94B00BD3451 /* InvadersGameOverScene.swift */; };
+		2231EE5321E5D94B00BD3451 /* InvadersGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231EE3A21E5D94B00BD3451 /* InvadersGameScene.swift */; };
+		2231EE5421E5D94B00BD3451 /* AssetLicensingNotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE3C21E5D94B00BD3451 /* AssetLicensingNotes.txt */; };
+		2231EE5521E5D94B00BD3451 /* InvaderBullet.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE3E21E5D94B00BD3451 /* InvaderBullet.wav */; };
+		2231EE5621E5D94B00BD3451 /* ShipBullet.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE3F21E5D94B00BD3451 /* ShipBullet.wav */; };
+		2231EE5721E5D94B00BD3451 /* ShipHit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE4021E5D94B00BD3451 /* ShipHit.wav */; };
+		2231EE5821E5D94B00BD3451 /* InvaderHit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE4121E5D94B00BD3451 /* InvaderHit.wav */; };
+		2231EE5921E5D94B00BD3451 /* InvaderB_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE4321E5D94B00BD3451 /* InvaderB_01@2x.png */; };
+		2231EE5A21E5D94B00BD3451 /* Ship.png in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE4421E5D94B00BD3451 /* Ship.png */; };
+		2231EE5B21E5D94B00BD3451 /* InvaderC_00.png in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE4521E5D94B00BD3451 /* InvaderC_00.png */; };
+		2231EE5C21E5D94B00BD3451 /* InvaderC_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE4621E5D94B00BD3451 /* InvaderC_01.png */; };
+		2231EE5D21E5D94C00BD3451 /* InvaderA_00.png in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE4721E5D94B00BD3451 /* InvaderA_00.png */; };
+		2231EE5E21E5D94C00BD3451 /* InvaderA_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE4821E5D94B00BD3451 /* InvaderA_01.png */; };
+		2231EE5F21E5D94C00BD3451 /* InvaderC_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE4921E5D94B00BD3451 /* InvaderC_01@2x.png */; };
+		2231EE6021E5D94C00BD3451 /* InvaderA_00@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE4A21E5D94B00BD3451 /* InvaderA_00@2x.png */; };
+		2231EE6121E5D94C00BD3451 /* InvaderB_00@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE4B21E5D94B00BD3451 /* InvaderB_00@2x.png */; };
+		2231EE6221E5D94C00BD3451 /* InvaderB_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE4C21E5D94B00BD3451 /* InvaderB_01.png */; };
+		2231EE6321E5D94C00BD3451 /* InvaderB_00.png in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE4D21E5D94B00BD3451 /* InvaderB_00.png */; };
+		2231EE6421E5D94C00BD3451 /* InvaderA_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE4E21E5D94B00BD3451 /* InvaderA_01@2x.png */; };
+		2231EE6521E5D94C00BD3451 /* InvaderC_00@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE4F21E5D94B00BD3451 /* InvaderC_00@2x.png */; };
+		2231EE6621E5D94C00BD3451 /* Ship@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE5021E5D94B00BD3451 /* Ship@2x.png */; };
+		2231EE7A21E5E3F200BD3451 /* MSReferenceNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231EE6921E5E3F200BD3451 /* MSReferenceNode.swift */; };
+		2231EE7B21E5E3F200BD3451 /* Seal.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE6A21E5E3F200BD3451 /* Seal.sks */; };
+		2231EE7C21E5E3F200BD3451 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231EE6B21E5E3F200BD3451 /* MainMenuScene.swift */; };
+		2231EE7D21E5E3F200BD3451 /* Bear.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE6C21E5E3F200BD3451 /* Bear.sks */; };
+		2231EE7E21E5E3F200BD3451 /* PenguinsGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231EE6D21E5E3F200BD3451 /* PenguinsGameViewController.swift */; };
+		2231EE7F21E5E3F200BD3451 /* spark2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE6E21E5E3F200BD3451 /* spark2.png */; };
+		2231EE8021E5E3F200BD3451 /* sfx_seal.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE7021E5E3F200BD3451 /* sfx_seal.caf */; };
+		2231EE8121E5E3F200BD3451 /* Penguin.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE7121E5E3F200BD3451 /* Penguin.sks */; };
+		2231EE8221E5E3F200BD3451 /* MSButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231EE7221E5E3F200BD3451 /* MSButtonNode.swift */; };
+		2231EE8321E5E3F200BD3451 /* assets.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE7321E5E3F200BD3451 /* assets.atlas */; };
+		2231EE8421E5E3F200BD3451 /* PenguinsGameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE7421E5E3F200BD3451 /* PenguinsGameScene.sks */; };
+		2231EE8521E5E3F200BD3451 /* Level1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE7521E5E3F200BD3451 /* Level1.sks */; };
+		2231EE8621E5E3F200BD3451 /* PenguinsGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231EE7621E5E3F200BD3451 /* PenguinsGameScene.swift */; };
+		2231EE8721E5E3F200BD3451 /* SealExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE7721E5E3F200BD3451 /* SealExplosion.sks */; };
+		2231EE8821E5E3F200BD3451 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE7821E5E3F200BD3451 /* Actions.sks */; };
+		2231EE8E21E5E4B600BD3451 /* Vector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231EE8921E5E4B600BD3451 /* Vector3.swift */; };
+		2231EE8F21E5E4B600BD3451 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231EE8A21E5E4B600BD3451 /* CGPoint+Extensions.swift */; };
+		2231EE9021E5E4B600BD3451 /* CGVector+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231EE8B21E5E4B600BD3451 /* CGVector+Extensions.swift */; };
+		2231EE9121E5E4B600BD3451 /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231EE8C21E5E4B600BD3451 /* Int+Extensions.swift */; };
+		2231EE9221E5E4B600BD3451 /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231EE8D21E5E4B600BD3451 /* CGFloat+Extensions.swift */; };
+		2231EE9421E5E87F00BD3451 /* MainMenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE9321E5E50A00BD3451 /* MainMenuScene.sks */; };
+		B58751B21DD179A700E11D6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58751B01DD179A700E11D6C /* Main.storyboard */; };
+		B58751B41DD179A700E11D6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B58751B31DD179A700E11D6C /* Assets.xcassets */; };
+		B58751B71DD179A700E11D6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58751B51DD179A700E11D6C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2231ED2321E437B700BD3451 /* BoschSt2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BoschSt2.h; path = Bosch/BoschSt2.h; sourceTree = SOURCE_ROOT; };
+		2231ED2421E437B700BD3451 /* BoschSceneTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BoschSceneTwo.h; path = Bosch/BoschSceneTwo.h; sourceTree = SOURCE_ROOT; };
+		2231ED2521E437B800BD3451 /* birdGone.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = birdGone.sks; path = Bosch/birdGone.sks; sourceTree = SOURCE_ROOT; };
+		2231ED2621E437B800BD3451 /* BoschSceneThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BoschSceneThree.m; path = Bosch/BoschSceneThree.m; sourceTree = SOURCE_ROOT; };
+		2231ED2721E437B800BD3451 /* BoschSceneEight.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = BoschSceneEight.sks; path = Bosch/BoschSceneEight.sks; sourceTree = SOURCE_ROOT; };
+		2231ED2821E437B800BD3451 /* BoschSceneFive.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = BoschSceneFive.sks; path = Bosch/BoschSceneFive.sks; sourceTree = SOURCE_ROOT; };
+		2231ED2921E437B800BD3451 /* BoschSceneFour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BoschSceneFour.h; path = Bosch/BoschSceneFour.h; sourceTree = SOURCE_ROOT; };
+		2231ED2A21E437B800BD3451 /* bird2.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = bird2.atlas; path = Bosch/bird2.atlas; sourceTree = SOURCE_ROOT; };
+		2231ED2B21E437B800BD3451 /* BoschSceneNine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BoschSceneNine.h; path = Bosch/BoschSceneNine.h; sourceTree = SOURCE_ROOT; };
+		2231ED2C21E437B800BD3451 /* BoschSt3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BoschSt3.m; path = Bosch/BoschSt3.m; sourceTree = SOURCE_ROOT; };
+		2231ED2D21E437B800BD3451 /* birdau.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = birdau.mp3; path = Bosch/birdau.mp3; sourceTree = SOURCE_ROOT; };
+		2231ED2E21E437B800BD3451 /* BoschSceneStart.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = BoschSceneStart.sks; path = Bosch/BoschSceneStart.sks; sourceTree = SOURCE_ROOT; };
+		2231ED2F21E437B800BD3451 /* BoschSceneFive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BoschSceneFive.h; path = Bosch/BoschSceneFive.h; sourceTree = SOURCE_ROOT; };
+		2231ED3021E437B800BD3451 /* harpback.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = harpback.mp3; path = Bosch/harpback.mp3; sourceTree = SOURCE_ROOT; };
+		2231ED3121E437B800BD3451 /* BoschGameOver.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = BoschGameOver.sks; path = Bosch/BoschGameOver.sks; sourceTree = SOURCE_ROOT; };
+		2231ED3221E437B800BD3451 /* BoschSceneThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BoschSceneThree.h; path = Bosch/BoschSceneThree.h; sourceTree = SOURCE_ROOT; };
+		2231ED3321E437B800BD3451 /* BoschSceneOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BoschSceneOne.h; path = Bosch/BoschSceneOne.h; sourceTree = SOURCE_ROOT; };
+		2231ED3421E437B800BD3451 /* adamau.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = adamau.mp3; path = Bosch/adamau.mp3; sourceTree = SOURCE_ROOT; };
+		2231ED3521E437B800BD3451 /* BoschSceneSix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BoschSceneSix.m; path = Bosch/BoschSceneSix.m; sourceTree = SOURCE_ROOT; };
+		2231ED3621E437B800BD3451 /* BoschViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BoschViewController.m; path = Bosch/BoschViewController.m; sourceTree = SOURCE_ROOT; };
+		2231ED3721E437B800BD3451 /* BoschSt2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = BoschSt2.sks; path = Bosch/BoschSt2.sks; sourceTree = SOURCE_ROOT; };
+		2231ED3821E437B800BD3451 /* applehit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = applehit.mp3; path = Bosch/applehit.mp3; sourceTree = SOURCE_ROOT; };
+		2231ED3921E437B800BD3451 /* BoschSceneNine.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = BoschSceneNine.sks; path = Bosch/BoschSceneNine.sks; sourceTree = SOURCE_ROOT; };
+		2231ED3A21E437B800BD3451 /* BoschSceneTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BoschSceneTwo.m; path = Bosch/BoschSceneTwo.m; sourceTree = SOURCE_ROOT; };
+		2231ED3B21E437B800BD3451 /* BoschSceneTwo.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = BoschSceneTwo.sks; path = Bosch/BoschSceneTwo.sks; sourceTree = SOURCE_ROOT; };
+		2231ED3C21E437B800BD3451 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spark.png; path = Bosch/spark.png; sourceTree = SOURCE_ROOT; };
+		2231ED3D21E437B800BD3451 /* BoschSceneSix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BoschSceneSix.h; path = Bosch/BoschSceneSix.h; sourceTree = SOURCE_ROOT; };
+		2231ED3E21E437B900BD3451 /* BoschSceneOne.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = BoschSceneOne.sks; path = Bosch/BoschSceneOne.sks; sourceTree = SOURCE_ROOT; };
+		2231ED3F21E437B900BD3451 /* BoschSceneThree.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = BoschSceneThree.sks; path = Bosch/BoschSceneThree.sks; sourceTree = SOURCE_ROOT; };
+		2231ED4021E437B900BD3451 /* BoschSceneNine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BoschSceneNine.m; path = Bosch/BoschSceneNine.m; sourceTree = SOURCE_ROOT; };
+		2231ED4121E437B900BD3451 /* BoschSceneStart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BoschSceneStart.m; path = Bosch/BoschSceneStart.m; sourceTree = SOURCE_ROOT; };
+		2231ED4221E437B900BD3451 /* BoschSceneSeven.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BoschSceneSeven.h; path = Bosch/BoschSceneSeven.h; sourceTree = SOURCE_ROOT; };
+		2231ED4321E437B900BD3451 /* BoschGameOver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BoschGameOver.m; path = Bosch/BoschGameOver.m; sourceTree = SOURCE_ROOT; };
+		2231ED4421E437B900BD3451 /* BoschGameOver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BoschGameOver.h; path = Bosch/BoschGameOver.h; sourceTree = SOURCE_ROOT; };
+		2231ED4521E437B900BD3451 /* BoschSceneStart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BoschSceneStart.h; path = Bosch/BoschSceneStart.h; sourceTree = SOURCE_ROOT; };
+		2231ED4621E437B900BD3451 /* BoschSceneSeven.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BoschSceneSeven.m; path = Bosch/BoschSceneSeven.m; sourceTree = SOURCE_ROOT; };
+		2231ED4721E437B900BD3451 /* BoschSt3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = BoschSt3.sks; path = Bosch/BoschSt3.sks; sourceTree = SOURCE_ROOT; };
+		2231ED4821E437B900BD3451 /* BoschSceneFour.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = BoschSceneFour.sks; path = Bosch/BoschSceneFour.sks; sourceTree = SOURCE_ROOT; };
+		2231ED4921E437B900BD3451 /* BoschSceneEight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BoschSceneEight.h; path = Bosch/BoschSceneEight.h; sourceTree = SOURCE_ROOT; };
+		2231ED4A21E437B900BD3451 /* BoschSt2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BoschSt2.m; path = Bosch/BoschSt2.m; sourceTree = SOURCE_ROOT; };
+		2231ED4B21E437B900BD3451 /* BoschSceneSix.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = BoschSceneSix.sks; path = Bosch/BoschSceneSix.sks; sourceTree = SOURCE_ROOT; };
+		2231ED4C21E437B900BD3451 /* BoschViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BoschViewController.h; path = Bosch/BoschViewController.h; sourceTree = SOURCE_ROOT; };
+		2231ED4D21E437BA00BD3451 /* BoschSceneEight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BoschSceneEight.m; path = Bosch/BoschSceneEight.m; sourceTree = SOURCE_ROOT; };
+		2231ED4E21E437BA00BD3451 /* poof.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = poof.sks; path = Bosch/poof.sks; sourceTree = SOURCE_ROOT; };
+		2231ED4F21E437BA00BD3451 /* birdanima.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = birdanima.atlas; path = Bosch/birdanima.atlas; sourceTree = SOURCE_ROOT; };
+		2231ED5021E437BA00BD3451 /* BoschSt3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BoschSt3.h; path = Bosch/BoschSt3.h; sourceTree = SOURCE_ROOT; };
+		2231ED5121E437BA00BD3451 /* BoschSceneSeven.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = BoschSceneSeven.sks; path = Bosch/BoschSceneSeven.sks; sourceTree = SOURCE_ROOT; };
+		2231ED5221E437BA00BD3451 /* BoschSceneFour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BoschSceneFour.m; path = Bosch/BoschSceneFour.m; sourceTree = SOURCE_ROOT; };
+		2231ED5321E437BA00BD3451 /* BoschSceneOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BoschSceneOne.m; path = Bosch/BoschSceneOne.m; sourceTree = SOURCE_ROOT; };
+		2231ED5421E437BA00BD3451 /* BoschSceneFive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BoschSceneFive.m; path = Bosch/BoschSceneFive.m; sourceTree = SOURCE_ROOT; };
+		2231ED7921E467FD00BD3451 /* GMIA1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GMIA1-Bridging-Header.h"; sourceTree = "<group>"; };
+		2231ED7A21E467FD00BD3451 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		2231ED7C21E481BE00BD3451 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2231ED7F21E48D9B00BD3451 /* CrunchGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrunchGameViewController.swift; sourceTree = "<group>"; };
+		2231ED8021E48D9B00BD3451 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2231ED8121E48D9B00BD3451 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
+		2231ED8221E48D9B00BD3451 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		2231ED8321E48D9B00BD3451 /* Cookie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cookie.swift; sourceTree = "<group>"; };
+		2231ED8421E48D9B00BD3451 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
+		2231ED8621E48D9B00BD3451 /* CrunchGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrunchGameScene.swift; sourceTree = "<group>"; };
+		2231ED8821E48D9B00BD3451 /* Level_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_2.json; sourceTree = "<group>"; };
+		2231ED8921E48D9B00BD3451 /* Level_3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_3.json; sourceTree = "<group>"; };
+		2231ED8A21E48D9B00BD3451 /* Level_4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_4.json; sourceTree = "<group>"; };
+		2231ED8B21E48D9B00BD3451 /* Level_0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_0.json; sourceTree = "<group>"; };
+		2231ED8C21E48D9B00BD3451 /* Level_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_1.json; sourceTree = "<group>"; };
+		2231ED8D21E48D9B00BD3451 /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		2231ED8E21E48D9B00BD3451 /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		2231EDA321E4A9F500BD3451 /* FlappyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlappyScene.h; sourceTree = "<group>"; };
+		2231EDA721E4A9F500BD3451 /* backgrounds.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = backgrounds.atlas; sourceTree = "<group>"; };
+		2231EDA821E4A9F500BD3451 /* flappy_sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = flappy_sprites.atlas; sourceTree = "<group>"; };
+		2231EDBC21E4A9F500BD3451 /* hitGround.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hitGround.wav; sourceTree = "<group>"; };
+		2231EDBD21E4A9F500BD3451 /* whack.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = whack.wav; sourceTree = "<group>"; };
+		2231EDBE21E4A9F500BD3451 /* flapping.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = flapping.wav; sourceTree = "<group>"; };
+		2231EDBF21E4A9F500BD3451 /* falling.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = falling.wav; sourceTree = "<group>"; };
+		2231EDC021E4A9F500BD3451 /* coin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = coin.wav; sourceTree = "<group>"; };
+		2231EDC121E4A9F500BD3451 /* pop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pop.wav; sourceTree = "<group>"; };
+		2231EDC221E4A9F500BD3451 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
+		2231EDC321E4A9F500BD3451 /* FlappyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlappyViewController.m; sourceTree = "<group>"; };
+		2231EDC421E4A9F500BD3451 /* FlappyScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlappyScene.m; sourceTree = "<group>"; };
+		2231EDC721E4A9F500BD3451 /* FlappyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlappyViewController.h; sourceTree = "<group>"; };
+		2231EDDE21E5B9D800BD3451 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		2231EDE021E5BAFB00BD3451 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2231EDE321E5CA4000BD3451 /* Pig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pig.m; sourceTree = "<group>"; };
+		2231EDE521E5CA4000BD3451 /* HogvilleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HogvilleScene.h; sourceTree = "<group>"; };
+		2231EDE721E5CA4000BD3451 /* hogville_sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = hogville_sprites.atlas; sourceTree = "<group>"; };
+		2231EDE921E5CA4000BD3451 /* bg_2_grassy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_2_grassy.png; sourceTree = "<group>"; };
+		2231EDEA21E5CA4000BD3451 /* bg_1_dusty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_1_dusty.png; sourceTree = "<group>"; };
+		2231EDEB21E5CA4000BD3451 /* HogvilleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HogvilleViewController.m; sourceTree = "<group>"; };
+		2231EDEC21E5CA4000BD3451 /* Pig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pig.h; sourceTree = "<group>"; };
+		2231EDED21E5CA4000BD3451 /* HogvilleScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HogvilleScene.m; sourceTree = "<group>"; };
+		2231EDEE21E5CA4000BD3451 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2231EDEF21E5CA4000BD3451 /* HogvilleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HogvilleViewController.h; sourceTree = "<group>"; };
+		2231EDF921E5D5C600BD3451 /* SKAction+SKTSpecialEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKAction+SKTSpecialEffects.m"; sourceTree = "<group>"; };
+		2231EDFA21E5D5C600BD3451 /* SKTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTUtils.h; sourceTree = "<group>"; };
+		2231EDFB21E5D5C600BD3451 /* SKAction+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKAction+SKTExtras.m"; sourceTree = "<group>"; };
+		2231EDFC21E5D5C600BD3451 /* SKEmitterNode+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKEmitterNode+SKTExtras.h"; sourceTree = "<group>"; };
+		2231EDFD21E5D5C600BD3451 /* SKTAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTAudio.h; sourceTree = "<group>"; };
+		2231EDFE21E5D5C600BD3451 /* SKTEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTEffects.h; sourceTree = "<group>"; };
+		2231EDFF21E5D5C600BD3451 /* SKNode+SKTDebugDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKNode+SKTDebugDraw.h"; sourceTree = "<group>"; };
+		2231EE0021E5D5C600BD3451 /* SKNode+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKNode+SKTExtras.m"; sourceTree = "<group>"; };
+		2231EE0121E5D5C600BD3451 /* SKTTimingFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTTimingFunctions.h; sourceTree = "<group>"; };
+		2231EE0221E5D5C600BD3451 /* SKEmitterNode+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKEmitterNode+SKTExtras.m"; sourceTree = "<group>"; };
+		2231EE0321E5D5C600BD3451 /* SKAction+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKAction+SKTExtras.h"; sourceTree = "<group>"; };
+		2231EE0421E5D5C600BD3451 /* SKAction+SKTSpecialEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKAction+SKTSpecialEffects.h"; sourceTree = "<group>"; };
+		2231EE0521E5D5C600BD3451 /* SKTAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTAudio.m; sourceTree = "<group>"; };
+		2231EE0621E5D5C600BD3451 /* SKTEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTEffects.m; sourceTree = "<group>"; };
+		2231EE0721E5D5C600BD3451 /* SKTTimingFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTTimingFunctions.m; sourceTree = "<group>"; };
+		2231EE0821E5D5C600BD3451 /* SKNode+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKNode+SKTExtras.h"; sourceTree = "<group>"; };
+		2231EE0921E5D5C600BD3451 /* SKNode+SKTDebugDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKNode+SKTDebugDraw.m"; sourceTree = "<group>"; };
+		2231EE1321E5D65300BD3451 /* JSTileMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTileMap.h; sourceTree = "<group>"; };
+		2231EE1421E5D65300BD3451 /* hurt.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hurt.wav; sourceTree = "<group>"; };
+		2231EE1521E5D65300BD3451 /* replay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = replay.png; sourceTree = "<group>"; };
+		2231EE1621E5D65300BD3451 /* LFCGzipUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCGzipUtility.m; sourceTree = "<group>"; };
+		2231EE1721E5D65300BD3451 /* jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jump.wav; sourceTree = "<group>"; };
+		2231EE1821E5D65300BD3451 /* tileSet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tileSet@2x.png"; sourceTree = "<group>"; };
+		2231EE1921E5D65300BD3451 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		2231EE1A21E5D65300BD3451 /* GameLevelScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameLevelScene.m; sourceTree = "<group>"; };
+		2231EE1B21E5D65300BD3451 /* KoalioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KoalioViewController.m; sourceTree = "<group>"; };
+		2231EE1C21E5D65300BD3451 /* koalio_sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = koalio_sprites.atlas; sourceTree = "<group>"; };
+		2231EE1E21E5D65300BD3451 /* level1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level1.tmx; sourceTree = "<group>"; };
+		2231EE1F21E5D65300BD3451 /* JSTileMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTileMap.m; sourceTree = "<group>"; };
+		2231EE2021E5D65300BD3451 /* replay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "replay@2x.png"; sourceTree = "<group>"; };
+		2231EE2121E5D65300BD3451 /* LFCGzipUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCGzipUtility.h; sourceTree = "<group>"; };
+		2231EE2221E5D65300BD3451 /* tileSet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tileSet.png; sourceTree = "<group>"; };
+		2231EE2321E5D65300BD3451 /* level1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = level1.mp3; sourceTree = "<group>"; };
+		2231EE2521E5D65300BD3451 /* KoalioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KoalioViewController.h; sourceTree = "<group>"; };
+		2231EE2621E5D65300BD3451 /* GameLevelScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLevelScene.h; sourceTree = "<group>"; };
+		2231EE2721E5D65300BD3451 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		2231EE3821E5D94B00BD3451 /* InvadersGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvadersGameViewController.swift; sourceTree = "<group>"; };
+		2231EE3921E5D94B00BD3451 /* InvadersGameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvadersGameOverScene.swift; sourceTree = "<group>"; };
+		2231EE3A21E5D94B00BD3451 /* InvadersGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvadersGameScene.swift; sourceTree = "<group>"; };
+		2231EE3C21E5D94B00BD3451 /* AssetLicensingNotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AssetLicensingNotes.txt; sourceTree = "<group>"; };
+		2231EE3E21E5D94B00BD3451 /* InvaderBullet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = InvaderBullet.wav; sourceTree = "<group>"; };
+		2231EE3F21E5D94B00BD3451 /* ShipBullet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ShipBullet.wav; sourceTree = "<group>"; };
+		2231EE4021E5D94B00BD3451 /* ShipHit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ShipHit.wav; sourceTree = "<group>"; };
+		2231EE4121E5D94B00BD3451 /* InvaderHit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = InvaderHit.wav; sourceTree = "<group>"; };
+		2231EE4321E5D94B00BD3451 /* InvaderB_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InvaderB_01@2x.png"; sourceTree = "<group>"; };
+		2231EE4421E5D94B00BD3451 /* Ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ship.png; sourceTree = "<group>"; };
+		2231EE4521E5D94B00BD3451 /* InvaderC_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InvaderC_00.png; sourceTree = "<group>"; };
+		2231EE4621E5D94B00BD3451 /* InvaderC_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InvaderC_01.png; sourceTree = "<group>"; };
+		2231EE4721E5D94B00BD3451 /* InvaderA_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InvaderA_00.png; sourceTree = "<group>"; };
+		2231EE4821E5D94B00BD3451 /* InvaderA_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InvaderA_01.png; sourceTree = "<group>"; };
+		2231EE4921E5D94B00BD3451 /* InvaderC_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InvaderC_01@2x.png"; sourceTree = "<group>"; };
+		2231EE4A21E5D94B00BD3451 /* InvaderA_00@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InvaderA_00@2x.png"; sourceTree = "<group>"; };
+		2231EE4B21E5D94B00BD3451 /* InvaderB_00@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InvaderB_00@2x.png"; sourceTree = "<group>"; };
+		2231EE4C21E5D94B00BD3451 /* InvaderB_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InvaderB_01.png; sourceTree = "<group>"; };
+		2231EE4D21E5D94B00BD3451 /* InvaderB_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InvaderB_00.png; sourceTree = "<group>"; };
+		2231EE4E21E5D94B00BD3451 /* InvaderA_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InvaderA_01@2x.png"; sourceTree = "<group>"; };
+		2231EE4F21E5D94B00BD3451 /* InvaderC_00@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InvaderC_00@2x.png"; sourceTree = "<group>"; };
+		2231EE5021E5D94B00BD3451 /* Ship@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ship@2x.png"; sourceTree = "<group>"; };
+		2231EE6921E5E3F200BD3451 /* MSReferenceNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSReferenceNode.swift; sourceTree = "<group>"; };
+		2231EE6A21E5E3F200BD3451 /* Seal.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Seal.sks; sourceTree = "<group>"; };
+		2231EE6B21E5E3F200BD3451 /* MainMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		2231EE6C21E5E3F200BD3451 /* Bear.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Bear.sks; sourceTree = "<group>"; };
+		2231EE6D21E5E3F200BD3451 /* PenguinsGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PenguinsGameViewController.swift; sourceTree = "<group>"; };
+		2231EE6E21E5E3F200BD3451 /* spark2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark2.png; sourceTree = "<group>"; };
+		2231EE7021E5E3F200BD3451 /* sfx_seal.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfx_seal.caf; sourceTree = "<group>"; };
+		2231EE7121E5E3F200BD3451 /* Penguin.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Penguin.sks; sourceTree = "<group>"; };
+		2231EE7221E5E3F200BD3451 /* MSButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSButtonNode.swift; sourceTree = "<group>"; };
+		2231EE7321E5E3F200BD3451 /* assets.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = assets.atlas; sourceTree = "<group>"; };
+		2231EE7421E5E3F200BD3451 /* PenguinsGameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PenguinsGameScene.sks; sourceTree = "<group>"; };
+		2231EE7521E5E3F200BD3451 /* Level1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level1.sks; sourceTree = "<group>"; };
+		2231EE7621E5E3F200BD3451 /* PenguinsGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PenguinsGameScene.swift; sourceTree = "<group>"; };
+		2231EE7721E5E3F200BD3451 /* SealExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SealExplosion.sks; sourceTree = "<group>"; };
+		2231EE7821E5E3F200BD3451 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		2231EE8921E5E4B600BD3451 /* Vector3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector3.swift; sourceTree = "<group>"; };
+		2231EE8A21E5E4B600BD3451 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		2231EE8B21E5E4B600BD3451 /* CGVector+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGVector+Extensions.swift"; sourceTree = "<group>"; };
+		2231EE8C21E5E4B600BD3451 /* Int+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		2231EE8D21E5E4B600BD3451 /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
+		2231EE9321E5E50A00BD3451 /* MainMenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenuScene.sks; sourceTree = "<group>"; };
+		B58751A41DD179A700E11D6C /* GMIA1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GMIA1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B58751B11DD179A700E11D6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B58751B31DD179A700E11D6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B58751B61DD179A700E11D6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B58751B81DD179A700E11D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5AF340D1DDAE3DB00D49AC5 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B58751A11DD179A700E11D6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2231EDE121E5BAFB00BD3451 /* CoreGraphics.framework in Frameworks */,
+				2231EDDF21E5B9D800BD3451 /* SpriteKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2231ED2221E4379000BD3451 /* Bosch */ = {
+			isa = PBXGroup;
+			children = (
+				2231ED3421E437B800BD3451 /* adamau.mp3 */,
+				2231ED3821E437B800BD3451 /* applehit.mp3 */,
+				2231ED2A21E437B800BD3451 /* bird2.atlas */,
+				2231ED4F21E437BA00BD3451 /* birdanima.atlas */,
+				2231ED2D21E437B800BD3451 /* birdau.mp3 */,
+				2231ED2521E437B800BD3451 /* birdGone.sks */,
+				2231ED4421E437B900BD3451 /* BoschGameOver.h */,
+				2231ED4321E437B900BD3451 /* BoschGameOver.m */,
+				2231ED3121E437B800BD3451 /* BoschGameOver.sks */,
+				2231ED4921E437B900BD3451 /* BoschSceneEight.h */,
+				2231ED4D21E437BA00BD3451 /* BoschSceneEight.m */,
+				2231ED2721E437B800BD3451 /* BoschSceneEight.sks */,
+				2231ED2F21E437B800BD3451 /* BoschSceneFive.h */,
+				2231ED5421E437BA00BD3451 /* BoschSceneFive.m */,
+				2231ED2821E437B800BD3451 /* BoschSceneFive.sks */,
+				2231ED2921E437B800BD3451 /* BoschSceneFour.h */,
+				2231ED5221E437BA00BD3451 /* BoschSceneFour.m */,
+				2231ED4821E437B900BD3451 /* BoschSceneFour.sks */,
+				2231ED2B21E437B800BD3451 /* BoschSceneNine.h */,
+				2231ED4021E437B900BD3451 /* BoschSceneNine.m */,
+				2231ED3921E437B800BD3451 /* BoschSceneNine.sks */,
+				2231ED3321E437B800BD3451 /* BoschSceneOne.h */,
+				2231ED5321E437BA00BD3451 /* BoschSceneOne.m */,
+				2231ED3E21E437B900BD3451 /* BoschSceneOne.sks */,
+				2231ED4221E437B900BD3451 /* BoschSceneSeven.h */,
+				2231ED4621E437B900BD3451 /* BoschSceneSeven.m */,
+				2231ED5121E437BA00BD3451 /* BoschSceneSeven.sks */,
+				2231ED3D21E437B800BD3451 /* BoschSceneSix.h */,
+				2231ED3521E437B800BD3451 /* BoschSceneSix.m */,
+				2231ED4B21E437B900BD3451 /* BoschSceneSix.sks */,
+				2231ED4521E437B900BD3451 /* BoschSceneStart.h */,
+				2231ED4121E437B900BD3451 /* BoschSceneStart.m */,
+				2231ED2E21E437B800BD3451 /* BoschSceneStart.sks */,
+				2231ED3221E437B800BD3451 /* BoschSceneThree.h */,
+				2231ED2621E437B800BD3451 /* BoschSceneThree.m */,
+				2231ED3F21E437B900BD3451 /* BoschSceneThree.sks */,
+				2231ED2421E437B700BD3451 /* BoschSceneTwo.h */,
+				2231ED3A21E437B800BD3451 /* BoschSceneTwo.m */,
+				2231ED3B21E437B800BD3451 /* BoschSceneTwo.sks */,
+				2231ED2321E437B700BD3451 /* BoschSt2.h */,
+				2231ED4A21E437B900BD3451 /* BoschSt2.m */,
+				2231ED3721E437B800BD3451 /* BoschSt2.sks */,
+				2231ED5021E437BA00BD3451 /* BoschSt3.h */,
+				2231ED2C21E437B800BD3451 /* BoschSt3.m */,
+				2231ED4721E437B900BD3451 /* BoschSt3.sks */,
+				2231ED4C21E437B900BD3451 /* BoschViewController.h */,
+				2231ED3621E437B800BD3451 /* BoschViewController.m */,
+				2231ED3021E437B800BD3451 /* harpback.mp3 */,
+				2231ED4E21E437BA00BD3451 /* poof.sks */,
+				2231ED3C21E437B800BD3451 /* spark.png */,
+			);
+			path = Bosch;
+			sourceTree = "<group>";
+		};
+		2231ED7E21E48D9B00BD3451 /* CookieCrunch */ = {
+			isa = PBXGroup;
+			children = (
+				2231ED8021E48D9B00BD3451 /* Assets.xcassets */,
+				2231ED8121E48D9B00BD3451 /* Sprites.atlas */,
+				2231ED8221E48D9B00BD3451 /* Extensions.swift */,
+				2231ED8321E48D9B00BD3451 /* Cookie.swift */,
+				2231ED8421E48D9B00BD3451 /* Array2D.swift */,
+				2231ED8621E48D9B00BD3451 /* CrunchGameScene.swift */,
+				2231ED7F21E48D9B00BD3451 /* CrunchGameViewController.swift */,
+				2231ED8721E48D9B00BD3451 /* Levels */,
+				2231ED8D21E48D9B00BD3451 /* Tile.swift */,
+				2231ED8E21E48D9B00BD3451 /* Level.swift */,
+			);
+			path = CookieCrunch;
+			sourceTree = "<group>";
+		};
+		2231ED8721E48D9B00BD3451 /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				2231ED8821E48D9B00BD3451 /* Level_2.json */,
+				2231ED8921E48D9B00BD3451 /* Level_3.json */,
+				2231ED8A21E48D9B00BD3451 /* Level_4.json */,
+				2231ED8B21E48D9B00BD3451 /* Level_0.json */,
+				2231ED8C21E48D9B00BD3451 /* Level_1.json */,
+			);
+			path = Levels;
+			sourceTree = "<group>";
+		};
+		2231EDA021E4A9F500BD3451 /* Flappy */ = {
+			isa = PBXGroup;
+			children = (
+				2231EDC721E4A9F500BD3451 /* FlappyViewController.h */,
+				2231EDC321E4A9F500BD3451 /* FlappyViewController.m */,
+				2231EDA321E4A9F500BD3451 /* FlappyScene.h */,
+				2231EDC421E4A9F500BD3451 /* FlappyScene.m */,
+				2231EDA521E4A9F500BD3451 /* Resources */,
+			);
+			path = Flappy;
+			sourceTree = "<group>";
+		};
+		2231EDA521E4A9F500BD3451 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2231EDA621E4A9F500BD3451 /* Art */,
+				2231EDBB21E4A9F500BD3451 /* Sounds */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2231EDA621E4A9F500BD3451 /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				2231EDA721E4A9F500BD3451 /* backgrounds.atlas */,
+				2231EDA821E4A9F500BD3451 /* flappy_sprites.atlas */,
+			);
+			path = Art;
+			sourceTree = "<group>";
+		};
+		2231EDBB21E4A9F500BD3451 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				2231EDBC21E4A9F500BD3451 /* hitGround.wav */,
+				2231EDBD21E4A9F500BD3451 /* whack.wav */,
+				2231EDBE21E4A9F500BD3451 /* flapping.wav */,
+				2231EDBF21E4A9F500BD3451 /* falling.wav */,
+				2231EDC021E4A9F500BD3451 /* coin.wav */,
+				2231EDC121E4A9F500BD3451 /* pop.wav */,
+				2231EDC221E4A9F500BD3451 /* ding.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		2231EDE221E5CA4000BD3451 /* Hogville */ = {
+			isa = PBXGroup;
+			children = (
+				2231EDE621E5CA4000BD3451 /* Art */,
+				2231EDEF21E5CA4000BD3451 /* HogvilleViewController.h */,
+				2231EDEB21E5CA4000BD3451 /* HogvilleViewController.m */,
+				2231EDEC21E5CA4000BD3451 /* Pig.h */,
+				2231EDE321E5CA4000BD3451 /* Pig.m */,
+				2231EDE521E5CA4000BD3451 /* HogvilleScene.h */,
+				2231EDED21E5CA4000BD3451 /* HogvilleScene.m */,
+				2231EDEE21E5CA4000BD3451 /* Images.xcassets */,
+			);
+			path = Hogville;
+			sourceTree = "<group>";
+		};
+		2231EDE621E5CA4000BD3451 /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				2231EDE721E5CA4000BD3451 /* hogville_sprites.atlas */,
+				2231EDE821E5CA4000BD3451 /* Backgrounds */,
+			);
+			path = Art;
+			sourceTree = "<group>";
+		};
+		2231EDE821E5CA4000BD3451 /* Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				2231EDE921E5CA4000BD3451 /* bg_2_grassy.png */,
+				2231EDEA21E5CA4000BD3451 /* bg_1_dusty.png */,
+			);
+			path = Backgrounds;
+			sourceTree = "<group>";
+		};
+		2231EDF821E5D5C600BD3451 /* SKTUtils */ = {
+			isa = PBXGroup;
+			children = (
+				2231EE8D21E5E4B600BD3451 /* CGFloat+Extensions.swift */,
+				2231EE8A21E5E4B600BD3451 /* CGPoint+Extensions.swift */,
+				2231EE8B21E5E4B600BD3451 /* CGVector+Extensions.swift */,
+				2231EE8C21E5E4B600BD3451 /* Int+Extensions.swift */,
+				2231EE8921E5E4B600BD3451 /* Vector3.swift */,
+				2231EDF921E5D5C600BD3451 /* SKAction+SKTSpecialEffects.m */,
+				2231EDFA21E5D5C600BD3451 /* SKTUtils.h */,
+				2231EDFB21E5D5C600BD3451 /* SKAction+SKTExtras.m */,
+				2231EDFC21E5D5C600BD3451 /* SKEmitterNode+SKTExtras.h */,
+				2231EDFD21E5D5C600BD3451 /* SKTAudio.h */,
+				2231EDFE21E5D5C600BD3451 /* SKTEffects.h */,
+				2231EDFF21E5D5C600BD3451 /* SKNode+SKTDebugDraw.h */,
+				2231EE0021E5D5C600BD3451 /* SKNode+SKTExtras.m */,
+				2231EE0121E5D5C600BD3451 /* SKTTimingFunctions.h */,
+				2231EE0221E5D5C600BD3451 /* SKEmitterNode+SKTExtras.m */,
+				2231EE0321E5D5C600BD3451 /* SKAction+SKTExtras.h */,
+				2231EE0421E5D5C600BD3451 /* SKAction+SKTSpecialEffects.h */,
+				2231EE0521E5D5C600BD3451 /* SKTAudio.m */,
+				2231EE0621E5D5C600BD3451 /* SKTEffects.m */,
+				2231EE0721E5D5C600BD3451 /* SKTTimingFunctions.m */,
+				2231EE0821E5D5C600BD3451 /* SKNode+SKTExtras.h */,
+				2231EE0921E5D5C600BD3451 /* SKNode+SKTDebugDraw.m */,
+			);
+			path = SKTUtils;
+			sourceTree = "<group>";
+		};
+		2231EE1221E5D65300BD3451 /* SuperKoalio */ = {
+			isa = PBXGroup;
+			children = (
+				2231EE1921E5D65300BD3451 /* Player.h */,
+				2231EE2721E5D65300BD3451 /* Player.m */,
+				2231EE2621E5D65300BD3451 /* GameLevelScene.h */,
+				2231EE1A21E5D65300BD3451 /* GameLevelScene.m */,
+				2231EE2521E5D65300BD3451 /* KoalioViewController.h */,
+				2231EE1B21E5D65300BD3451 /* KoalioViewController.m */,
+				2231EE1321E5D65300BD3451 /* JSTileMap.h */,
+				2231EE1F21E5D65300BD3451 /* JSTileMap.m */,
+				2231EE2121E5D65300BD3451 /* LFCGzipUtility.h */,
+				2231EE1621E5D65300BD3451 /* LFCGzipUtility.m */,
+				2231EE1C21E5D65300BD3451 /* koalio_sprites.atlas */,
+				2231EE1E21E5D65300BD3451 /* level1.tmx */,
+				2231EE1821E5D65300BD3451 /* tileSet@2x.png */,
+				2231EE2021E5D65300BD3451 /* replay@2x.png */,
+				2231EE2221E5D65300BD3451 /* tileSet.png */,
+				2231EE1521E5D65300BD3451 /* replay.png */,
+				2231EE1721E5D65300BD3451 /* jump.wav */,
+				2231EE1421E5D65300BD3451 /* hurt.wav */,
+				2231EE2321E5D65300BD3451 /* level1.mp3 */,
+			);
+			path = SuperKoalio;
+			sourceTree = "<group>";
+		};
+		2231EE3721E5D94B00BD3451 /* SKInvaders */ = {
+			isa = PBXGroup;
+			children = (
+				2231EE3821E5D94B00BD3451 /* InvadersGameViewController.swift */,
+				2231EE3921E5D94B00BD3451 /* InvadersGameOverScene.swift */,
+				2231EE3A21E5D94B00BD3451 /* InvadersGameScene.swift */,
+				2231EE3B21E5D94B00BD3451 /* Assets */,
+			);
+			path = SKInvaders;
+			sourceTree = "<group>";
+		};
+		2231EE3B21E5D94B00BD3451 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2231EE3C21E5D94B00BD3451 /* AssetLicensingNotes.txt */,
+				2231EE3D21E5D94B00BD3451 /* Sound Effects */,
+				2231EE4221E5D94B00BD3451 /* Sprite Images */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		2231EE3D21E5D94B00BD3451 /* Sound Effects */ = {
+			isa = PBXGroup;
+			children = (
+				2231EE3E21E5D94B00BD3451 /* InvaderBullet.wav */,
+				2231EE3F21E5D94B00BD3451 /* ShipBullet.wav */,
+				2231EE4021E5D94B00BD3451 /* ShipHit.wav */,
+				2231EE4121E5D94B00BD3451 /* InvaderHit.wav */,
+			);
+			path = "Sound Effects";
+			sourceTree = "<group>";
+		};
+		2231EE4221E5D94B00BD3451 /* Sprite Images */ = {
+			isa = PBXGroup;
+			children = (
+				2231EE4321E5D94B00BD3451 /* InvaderB_01@2x.png */,
+				2231EE4421E5D94B00BD3451 /* Ship.png */,
+				2231EE4521E5D94B00BD3451 /* InvaderC_00.png */,
+				2231EE4621E5D94B00BD3451 /* InvaderC_01.png */,
+				2231EE4721E5D94B00BD3451 /* InvaderA_00.png */,
+				2231EE4821E5D94B00BD3451 /* InvaderA_01.png */,
+				2231EE4921E5D94B00BD3451 /* InvaderC_01@2x.png */,
+				2231EE4A21E5D94B00BD3451 /* InvaderA_00@2x.png */,
+				2231EE4B21E5D94B00BD3451 /* InvaderB_00@2x.png */,
+				2231EE4C21E5D94B00BD3451 /* InvaderB_01.png */,
+				2231EE4D21E5D94B00BD3451 /* InvaderB_00.png */,
+				2231EE4E21E5D94B00BD3451 /* InvaderA_01@2x.png */,
+				2231EE4F21E5D94B00BD3451 /* InvaderC_00@2x.png */,
+				2231EE5021E5D94B00BD3451 /* Ship@2x.png */,
+			);
+			path = "Sprite Images";
+			sourceTree = "<group>";
+		};
+		2231EE6721E5E3F200BD3451 /* PeevedPenguins */ = {
+			isa = PBXGroup;
+			children = (
+				2231EE6D21E5E3F200BD3451 /* PenguinsGameViewController.swift */,
+				2231EE6B21E5E3F200BD3451 /* MainMenuScene.swift */,
+				2231EE7621E5E3F200BD3451 /* PenguinsGameScene.swift */,
+				2231EE6921E5E3F200BD3451 /* MSReferenceNode.swift */,
+				2231EE7221E5E3F200BD3451 /* MSButtonNode.swift */,
+				2231EE7321E5E3F200BD3451 /* assets.atlas */,
+				2231EE9321E5E50A00BD3451 /* MainMenuScene.sks */,
+				2231EE7421E5E3F200BD3451 /* PenguinsGameScene.sks */,
+				2231EE6C21E5E3F200BD3451 /* Bear.sks */,
+				2231EE7121E5E3F200BD3451 /* Penguin.sks */,
+				2231EE7521E5E3F200BD3451 /* Level1.sks */,
+				2231EE7821E5E3F200BD3451 /* Actions.sks */,
+				2231EE7721E5E3F200BD3451 /* SealExplosion.sks */,
+				2231EE6A21E5E3F200BD3451 /* Seal.sks */,
+				2231EE6E21E5E3F200BD3451 /* spark2.png */,
+				2231EE6F21E5E3F200BD3451 /* SFX */,
+			);
+			path = PeevedPenguins;
+			sourceTree = "<group>";
+		};
+		2231EE6F21E5E3F200BD3451 /* SFX */ = {
+			isa = PBXGroup;
+			children = (
+				2231EE7021E5E3F200BD3451 /* sfx_seal.caf */,
+			);
+			path = SFX;
+			sourceTree = "<group>";
+		};
+		B587519B1DD179A700E11D6C = {
+			isa = PBXGroup;
+			children = (
+				2231EE6721E5E3F200BD3451 /* PeevedPenguins */,
+				2231EE3721E5D94B00BD3451 /* SKInvaders */,
+				2231EE1221E5D65300BD3451 /* SuperKoalio */,
+				2231EDE221E5CA4000BD3451 /* Hogville */,
+				2231EDA021E4A9F500BD3451 /* Flappy */,
+				2231ED7E21E48D9B00BD3451 /* CookieCrunch */,
+				2231ED2221E4379000BD3451 /* Bosch */,
+				2231EDF821E5D5C600BD3451 /* SKTUtils */,
+				B58751A61DD179A700E11D6C /* GMIA1 */,
+				B58751A51DD179A700E11D6C /* Products */,
+				B5AF34091DD2CBCE00D49AC5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B58751A51DD179A700E11D6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B58751A41DD179A700E11D6C /* GMIA1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B58751A61DD179A700E11D6C /* GMIA1 */ = {
+			isa = PBXGroup;
+			children = (
+				2231ED7921E467FD00BD3451 /* GMIA1-Bridging-Header.h */,
+				2231ED7C21E481BE00BD3451 /* AppDelegate.swift */,
+				2231ED7A21E467FD00BD3451 /* SettingsViewController.swift */,
+				B58751B01DD179A700E11D6C /* Main.storyboard */,
+				B58751B31DD179A700E11D6C /* Assets.xcassets */,
+				B58751B51DD179A700E11D6C /* LaunchScreen.storyboard */,
+				B58751B81DD179A700E11D6C /* Info.plist */,
+			);
+			path = GMIA1;
+			sourceTree = "<group>";
+		};
+		B5AF34091DD2CBCE00D49AC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2231EDE021E5BAFB00BD3451 /* CoreGraphics.framework */,
+				2231EDDE21E5B9D800BD3451 /* SpriteKit.framework */,
+				B5AF340D1DDAE3DB00D49AC5 /* GameKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B58751A31DD179A700E11D6C /* GMIA1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B58751BB1DD179A700E11D6C /* Build configuration list for PBXNativeTarget "GMIA1" */;
+			buildPhases = (
+				B58751A01DD179A700E11D6C /* Sources */,
+				B58751A11DD179A700E11D6C /* Frameworks */,
+				B58751A21DD179A700E11D6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GMIA1;
+			productName = GMIA1;
+			productReference = B58751A41DD179A700E11D6C /* GMIA1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B587519C1DD179A700E11D6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Rene Van Meeuwen";
+				TargetAttributes = {
+					B58751A31DD179A700E11D6C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = D89G5PW6N7;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = B587519F1DD179A700E11D6C /* Build configuration list for PBXProject "GMIA1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B587519B1DD179A700E11D6C;
+			productRefGroup = B58751A51DD179A700E11D6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B58751A31DD179A700E11D6C /* GMIA1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B58751A21DD179A700E11D6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2231EE2B21E5D65300BD3451 /* jump.wav in Resources */,
+				2231EE6421E5D94C00BD3451 /* InvaderA_01@2x.png in Resources */,
+				2231ED6921E437BA00BD3451 /* BoschSceneThree.sks in Resources */,
+				2231EDD821E4A9F600BD3451 /* coin.wav in Resources */,
+				2231EE5E21E5D94C00BD3451 /* InvaderA_01.png in Resources */,
+				2231EE8021E5E3F200BD3451 /* sfx_seal.caf in Resources */,
+				2231EDF221E5CA4000BD3451 /* hogville_sprites.atlas in Resources */,
+				2231EE8821E5E3F200BD3451 /* Actions.sks in Resources */,
+				2231EE5C21E5D94B00BD3451 /* InvaderC_01.png in Resources */,
+				2231ED9A21E48D9B00BD3451 /* Level_4.json in Resources */,
+				2231ED9821E48D9B00BD3451 /* Level_2.json in Resources */,
+				2231EE8121E5E3F200BD3451 /* Penguin.sks in Resources */,
+				2231EE6021E5D94C00BD3451 /* InvaderA_00@2x.png in Resources */,
+				2231EE5921E5D94B00BD3451 /* InvaderB_01@2x.png in Resources */,
+				2231EE5521E5D94B00BD3451 /* InvaderBullet.wav in Resources */,
+				2231ED5921E437BA00BD3451 /* bird2.atlas in Resources */,
+				2231ED6821E437BA00BD3451 /* BoschSceneOne.sks in Resources */,
+				2231EE8421E5E3F200BD3451 /* PenguinsGameScene.sks in Resources */,
+				2231EE5D21E5D94C00BD3451 /* InvaderA_00.png in Resources */,
+				2231EE8321E5E3F200BD3451 /* assets.atlas in Resources */,
+				2231ED5F21E437BA00BD3451 /* adamau.mp3 in Resources */,
+				2231ED6421E437BA00BD3451 /* BoschSceneNine.sks in Resources */,
+				B58751B71DD179A700E11D6C /* LaunchScreen.storyboard in Resources */,
+				2231EDD621E4A9F600BD3451 /* flapping.wav in Resources */,
+				2231ED9B21E48D9B00BD3451 /* Level_0.json in Resources */,
+				2231EDCB21E4A9F600BD3451 /* flappy_sprites.atlas in Resources */,
+				2231EDD721E4A9F600BD3451 /* falling.wav in Resources */,
+				2231EE5721E5D94B00BD3451 /* ShipHit.wav in Resources */,
+				2231ED9121E48D9B00BD3451 /* Assets.xcassets in Resources */,
+				2231EDDA21E4A9F600BD3451 /* ding.wav in Resources */,
+				2231ED5D21E437BA00BD3451 /* harpback.mp3 in Resources */,
+				2231EE5421E5D94B00BD3451 /* AssetLicensingNotes.txt in Resources */,
+				2231EDD521E4A9F600BD3451 /* whack.wav in Resources */,
+				2231EE2C21E5D65300BD3451 /* tileSet@2x.png in Resources */,
+				2231EE3521E5D65300BD3451 /* level1.mp3 in Resources */,
+				2231ED5E21E437BA00BD3451 /* BoschGameOver.sks in Resources */,
+				2231EE2821E5D65300BD3451 /* hurt.wav in Resources */,
+				2231ED5721E437BA00BD3451 /* BoschSceneEight.sks in Resources */,
+				2231EE5621E5D94B00BD3451 /* ShipBullet.wav in Resources */,
+				2231ED7421E437BA00BD3451 /* birdanima.atlas in Resources */,
+				2231ED7121E437BA00BD3451 /* BoschSceneSix.sks in Resources */,
+				2231EE7D21E5E3F200BD3451 /* Bear.sks in Resources */,
+				2231ED6F21E437BA00BD3451 /* BoschSceneFour.sks in Resources */,
+				2231ED6621E437BA00BD3451 /* BoschSceneTwo.sks in Resources */,
+				2231EDF721E5CA4000BD3451 /* Images.xcassets in Resources */,
+				2231EE6621E5D94C00BD3451 /* Ship@2x.png in Resources */,
+				2231ED5821E437BA00BD3451 /* BoschSceneFive.sks in Resources */,
+				2231EDF321E5CA4000BD3451 /* bg_2_grassy.png in Resources */,
+				2231EE5A21E5D94B00BD3451 /* Ship.png in Resources */,
+				2231EE6121E5D94C00BD3451 /* InvaderB_00@2x.png in Resources */,
+				2231EE6321E5D94C00BD3451 /* InvaderB_00.png in Resources */,
+				2231EE3121E5D65300BD3451 /* level1.tmx in Resources */,
+				2231EE3321E5D65300BD3451 /* replay@2x.png in Resources */,
+				2231EE7B21E5E3F200BD3451 /* Seal.sks in Resources */,
+				2231EDD921E4A9F600BD3451 /* pop.wav in Resources */,
+				2231EE5F21E5D94C00BD3451 /* InvaderC_01@2x.png in Resources */,
+				2231EE8521E5E3F200BD3451 /* Level1.sks in Resources */,
+				2231ED9221E48D9B00BD3451 /* Sprites.atlas in Resources */,
+				2231ED5521E437BA00BD3451 /* birdGone.sks in Resources */,
+				2231EE8721E5E3F200BD3451 /* SealExplosion.sks in Resources */,
+				2231EE6521E5D94C00BD3451 /* InvaderC_00@2x.png in Resources */,
+				2231EDD421E4A9F600BD3451 /* hitGround.wav in Resources */,
+				2231ED5C21E437BA00BD3451 /* BoschSceneStart.sks in Resources */,
+				2231EDF421E5CA4000BD3451 /* bg_1_dusty.png in Resources */,
+				2231EE9421E5E87F00BD3451 /* MainMenuScene.sks in Resources */,
+				2231ED6221E437BA00BD3451 /* BoschSt2.sks in Resources */,
+				2231ED7321E437BA00BD3451 /* poof.sks in Resources */,
+				2231EE5B21E5D94B00BD3451 /* InvaderC_00.png in Resources */,
+				B58751B41DD179A700E11D6C /* Assets.xcassets in Resources */,
+				2231ED6321E437BA00BD3451 /* applehit.mp3 in Resources */,
+				2231EE2F21E5D65300BD3451 /* koalio_sprites.atlas in Resources */,
+				2231EDCA21E4A9F600BD3451 /* backgrounds.atlas in Resources */,
+				2231ED9921E48D9B00BD3451 /* Level_3.json in Resources */,
+				2231EE7F21E5E3F200BD3451 /* spark2.png in Resources */,
+				2231ED6E21E437BA00BD3451 /* BoschSt3.sks in Resources */,
+				2231ED7521E437BA00BD3451 /* BoschSceneSeven.sks in Resources */,
+				2231ED9C21E48D9B00BD3451 /* Level_1.json in Resources */,
+				B58751B21DD179A700E11D6C /* Main.storyboard in Resources */,
+				2231ED5B21E437BA00BD3451 /* birdau.mp3 in Resources */,
+				2231EE2921E5D65300BD3451 /* replay.png in Resources */,
+				2231EE3421E5D65300BD3451 /* tileSet.png in Resources */,
+				2231EE6221E5D94C00BD3451 /* InvaderB_01.png in Resources */,
+				2231EE5821E5D94B00BD3451 /* InvaderHit.wav in Resources */,
+				2231ED6721E437BA00BD3451 /* spark.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B58751A01DD179A700E11D6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2231EDF621E5CA4000BD3451 /* HogvilleScene.m in Sources */,
+				2231EE2A21E5D65300BD3451 /* LFCGzipUtility.m in Sources */,
+				2231EE9121E5E4B600BD3451 /* Int+Extensions.swift in Sources */,
+				2231EE7C21E5E3F200BD3451 /* MainMenuScene.swift in Sources */,
+				2231ED6021E437BA00BD3451 /* BoschSceneSix.m in Sources */,
+				2231ED9321E48D9B00BD3451 /* Extensions.swift in Sources */,
+				2231EE0F21E5D5C600BD3451 /* SKTEffects.m in Sources */,
+				2231ED9421E48D9B00BD3451 /* Cookie.swift in Sources */,
+				2231EE2E21E5D65300BD3451 /* KoalioViewController.m in Sources */,
+				2231ED7621E437BA00BD3451 /* BoschSceneFour.m in Sources */,
+				2231EE7A21E5E3F200BD3451 /* MSReferenceNode.swift in Sources */,
+				2231ED7B21E467FD00BD3451 /* SettingsViewController.swift in Sources */,
+				2231EE0D21E5D5C600BD3451 /* SKEmitterNode+SKTExtras.m in Sources */,
+				2231EE0E21E5D5C600BD3451 /* SKTAudio.m in Sources */,
+				2231ED7221E437BA00BD3451 /* BoschSceneEight.m in Sources */,
+				2231ED9E21E48D9B00BD3451 /* Level.swift in Sources */,
+				2231EE8221E5E3F200BD3451 /* MSButtonNode.swift in Sources */,
+				2231EDDB21E4A9F600BD3451 /* FlappyViewController.m in Sources */,
+				2231EE3621E5D65300BD3451 /* Player.m in Sources */,
+				2231ED6D21E437BA00BD3451 /* BoschSceneSeven.m in Sources */,
+				2231EDDC21E4A9F600BD3451 /* FlappyScene.m in Sources */,
+				2231ED7D21E481BE00BD3451 /* AppDelegate.swift in Sources */,
+				2231EDF521E5CA4000BD3451 /* HogvilleViewController.m in Sources */,
+				2231EE1021E5D5C600BD3451 /* SKTTimingFunctions.m in Sources */,
+				2231ED9021E48D9B00BD3451 /* CrunchGameViewController.swift in Sources */,
+				2231EE9021E5E4B600BD3451 /* CGVector+Extensions.swift in Sources */,
+				2231EE1121E5D5C600BD3451 /* SKNode+SKTDebugDraw.m in Sources */,
+				2231EE7E21E5E3F200BD3451 /* PenguinsGameViewController.swift in Sources */,
+				2231ED9521E48D9B00BD3451 /* Array2D.swift in Sources */,
+				2231ED5A21E437BA00BD3451 /* BoschSt3.m in Sources */,
+				2231EE8F21E5E4B600BD3451 /* CGPoint+Extensions.swift in Sources */,
+				2231ED9D21E48D9B00BD3451 /* Tile.swift in Sources */,
+				2231EE5221E5D94B00BD3451 /* InvadersGameOverScene.swift in Sources */,
+				2231ED6B21E437BA00BD3451 /* BoschSceneStart.m in Sources */,
+				2231ED6A21E437BA00BD3451 /* BoschSceneNine.m in Sources */,
+				2231EE0C21E5D5C600BD3451 /* SKNode+SKTExtras.m in Sources */,
+				2231EE5121E5D94B00BD3451 /* InvadersGameViewController.swift in Sources */,
+				2231ED7021E437BA00BD3451 /* BoschSt2.m in Sources */,
+				2231ED6121E437BA00BD3451 /* BoschViewController.m in Sources */,
+				2231EDF021E5CA4000BD3451 /* Pig.m in Sources */,
+				2231EE0A21E5D5C600BD3451 /* SKAction+SKTSpecialEffects.m in Sources */,
+				2231EE8E21E5E4B600BD3451 /* Vector3.swift in Sources */,
+				2231EE3221E5D65300BD3451 /* JSTileMap.m in Sources */,
+				2231ED5621E437BA00BD3451 /* BoschSceneThree.m in Sources */,
+				2231EE2D21E5D65300BD3451 /* GameLevelScene.m in Sources */,
+				2231ED9721E48D9B00BD3451 /* CrunchGameScene.swift in Sources */,
+				2231EE9221E5E4B600BD3451 /* CGFloat+Extensions.swift in Sources */,
+				2231EE5321E5D94B00BD3451 /* InvadersGameScene.swift in Sources */,
+				2231ED7821E437BA00BD3451 /* BoschSceneFive.m in Sources */,
+				2231ED7721E437BA00BD3451 /* BoschSceneOne.m in Sources */,
+				2231EE0B21E5D5C600BD3451 /* SKAction+SKTExtras.m in Sources */,
+				2231ED6521E437BA00BD3451 /* BoschSceneTwo.m in Sources */,
+				2231EE8621E5E3F200BD3451 /* PenguinsGameScene.swift in Sources */,
+				2231ED6C21E437BA00BD3451 /* BoschGameOver.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B58751B01DD179A700E11D6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B58751B11DD179A700E11D6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B58751B51DD179A700E11D6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B58751B61DD179A700E11D6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B58751B91DD179A700E11D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B58751BA1DD179A700E11D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B58751BC1DD179A700E11D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = D89G5PW6N7;
+				INFOPLIST_FILE = GMIA1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = felixlab.GMIA1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GMIA1/GMIA1-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		B58751BD1DD179A700E11D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = D89G5PW6N7;
+				INFOPLIST_FILE = GMIA1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = felixlab.GMIA1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GMIA1/GMIA1-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B587519F1DD179A700E11D6C /* Build configuration list for PBXProject "GMIA1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B58751B91DD179A700E11D6C /* Debug */,
+				B58751BA1DD179A700E11D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B58751BB1DD179A700E11D6C /* Build configuration list for PBXNativeTarget "GMIA1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B58751BC1DD179A700E11D6C /* Debug */,
+				B58751BD1DD179A700E11D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B587519C1DD179A700E11D6C /* Project object */;
+}
