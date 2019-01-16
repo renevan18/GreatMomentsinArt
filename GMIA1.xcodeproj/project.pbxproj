@@ -45,20 +45,6 @@
 		2231ED7821E437BA00BD3451 /* BoschSceneFive.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231ED5421E437BA00BD3451 /* BoschSceneFive.m */; };
 		2231ED7B21E467FD00BD3451 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231ED7A21E467FD00BD3451 /* SettingsViewController.swift */; };
 		2231ED7D21E481BE00BD3451 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231ED7C21E481BE00BD3451 /* AppDelegate.swift */; };
-		2231ED9021E48D9B00BD3451 /* CrunchGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231ED7F21E48D9B00BD3451 /* CrunchGameViewController.swift */; };
-		2231ED9121E48D9B00BD3451 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2231ED8021E48D9B00BD3451 /* Assets.xcassets */; };
-		2231ED9221E48D9B00BD3451 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 2231ED8121E48D9B00BD3451 /* Sprites.atlas */; };
-		2231ED9321E48D9B00BD3451 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231ED8221E48D9B00BD3451 /* Extensions.swift */; };
-		2231ED9421E48D9B00BD3451 /* Cookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231ED8321E48D9B00BD3451 /* Cookie.swift */; };
-		2231ED9521E48D9B00BD3451 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231ED8421E48D9B00BD3451 /* Array2D.swift */; };
-		2231ED9721E48D9B00BD3451 /* CrunchGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231ED8621E48D9B00BD3451 /* CrunchGameScene.swift */; };
-		2231ED9821E48D9B00BD3451 /* Level_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 2231ED8821E48D9B00BD3451 /* Level_2.json */; };
-		2231ED9921E48D9B00BD3451 /* Level_3.json in Resources */ = {isa = PBXBuildFile; fileRef = 2231ED8921E48D9B00BD3451 /* Level_3.json */; };
-		2231ED9A21E48D9B00BD3451 /* Level_4.json in Resources */ = {isa = PBXBuildFile; fileRef = 2231ED8A21E48D9B00BD3451 /* Level_4.json */; };
-		2231ED9B21E48D9B00BD3451 /* Level_0.json in Resources */ = {isa = PBXBuildFile; fileRef = 2231ED8B21E48D9B00BD3451 /* Level_0.json */; };
-		2231ED9C21E48D9B00BD3451 /* Level_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 2231ED8C21E48D9B00BD3451 /* Level_1.json */; };
-		2231ED9D21E48D9B00BD3451 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231ED8D21E48D9B00BD3451 /* Tile.swift */; };
-		2231ED9E21E48D9B00BD3451 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231ED8E21E48D9B00BD3451 /* Level.swift */; };
 		2231EDCA21E4A9F600BD3451 /* backgrounds.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 2231EDA721E4A9F500BD3451 /* backgrounds.atlas */; };
 		2231EDCB21E4A9F600BD3451 /* flappy_sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 2231EDA821E4A9F500BD3451 /* flappy_sprites.atlas */; };
 		2231EDD421E4A9F600BD3451 /* hitGround.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2231EDBC21E4A9F500BD3451 /* hitGround.wav */; };
@@ -72,13 +58,6 @@
 		2231EDDC21E4A9F600BD3451 /* FlappyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231EDC421E4A9F500BD3451 /* FlappyScene.m */; };
 		2231EDDF21E5B9D800BD3451 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2231EDDE21E5B9D800BD3451 /* SpriteKit.framework */; };
 		2231EDE121E5BAFB00BD3451 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2231EDE021E5BAFB00BD3451 /* CoreGraphics.framework */; };
-		2231EDF021E5CA4000BD3451 /* Pig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231EDE321E5CA4000BD3451 /* Pig.m */; };
-		2231EDF221E5CA4000BD3451 /* hogville_sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 2231EDE721E5CA4000BD3451 /* hogville_sprites.atlas */; };
-		2231EDF321E5CA4000BD3451 /* bg_2_grassy.png in Resources */ = {isa = PBXBuildFile; fileRef = 2231EDE921E5CA4000BD3451 /* bg_2_grassy.png */; };
-		2231EDF421E5CA4000BD3451 /* bg_1_dusty.png in Resources */ = {isa = PBXBuildFile; fileRef = 2231EDEA21E5CA4000BD3451 /* bg_1_dusty.png */; };
-		2231EDF521E5CA4000BD3451 /* HogvilleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231EDEB21E5CA4000BD3451 /* HogvilleViewController.m */; };
-		2231EDF621E5CA4000BD3451 /* HogvilleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231EDED21E5CA4000BD3451 /* HogvilleScene.m */; };
-		2231EDF721E5CA4000BD3451 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2231EDEE21E5CA4000BD3451 /* Images.xcassets */; };
 		2231EE0A21E5D5C600BD3451 /* SKAction+SKTSpecialEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231EDF921E5D5C600BD3451 /* SKAction+SKTSpecialEffects.m */; };
 		2231EE0B21E5D5C600BD3451 /* SKAction+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231EDFB21E5D5C600BD3451 /* SKAction+SKTExtras.m */; };
 		2231EE0C21E5D5C600BD3451 /* SKNode+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231EE0021E5D5C600BD3451 /* SKNode+SKTExtras.m */; };
@@ -87,20 +66,6 @@
 		2231EE0F21E5D5C600BD3451 /* SKTEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231EE0621E5D5C600BD3451 /* SKTEffects.m */; };
 		2231EE1021E5D5C600BD3451 /* SKTTimingFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231EE0721E5D5C600BD3451 /* SKTTimingFunctions.m */; };
 		2231EE1121E5D5C600BD3451 /* SKNode+SKTDebugDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231EE0921E5D5C600BD3451 /* SKNode+SKTDebugDraw.m */; };
-		2231EE2821E5D65300BD3451 /* hurt.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE1421E5D65300BD3451 /* hurt.wav */; };
-		2231EE2921E5D65300BD3451 /* replay.png in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE1521E5D65300BD3451 /* replay.png */; };
-		2231EE2A21E5D65300BD3451 /* LFCGzipUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231EE1621E5D65300BD3451 /* LFCGzipUtility.m */; };
-		2231EE2B21E5D65300BD3451 /* jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE1721E5D65300BD3451 /* jump.wav */; };
-		2231EE2C21E5D65300BD3451 /* tileSet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE1821E5D65300BD3451 /* tileSet@2x.png */; };
-		2231EE2D21E5D65300BD3451 /* GameLevelScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231EE1A21E5D65300BD3451 /* GameLevelScene.m */; };
-		2231EE2E21E5D65300BD3451 /* KoalioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231EE1B21E5D65300BD3451 /* KoalioViewController.m */; };
-		2231EE2F21E5D65300BD3451 /* koalio_sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE1C21E5D65300BD3451 /* koalio_sprites.atlas */; };
-		2231EE3121E5D65300BD3451 /* level1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE1E21E5D65300BD3451 /* level1.tmx */; };
-		2231EE3221E5D65300BD3451 /* JSTileMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231EE1F21E5D65300BD3451 /* JSTileMap.m */; };
-		2231EE3321E5D65300BD3451 /* replay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE2021E5D65300BD3451 /* replay@2x.png */; };
-		2231EE3421E5D65300BD3451 /* tileSet.png in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE2221E5D65300BD3451 /* tileSet.png */; };
-		2231EE3521E5D65300BD3451 /* level1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE2321E5D65300BD3451 /* level1.mp3 */; };
-		2231EE3621E5D65300BD3451 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231EE2721E5D65300BD3451 /* Player.m */; };
 		2231EE5121E5D94B00BD3451 /* InvadersGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231EE3821E5D94B00BD3451 /* InvadersGameViewController.swift */; };
 		2231EE5221E5D94B00BD3451 /* InvadersGameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231EE3921E5D94B00BD3451 /* InvadersGameOverScene.swift */; };
 		2231EE5321E5D94B00BD3451 /* InvadersGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231EE3A21E5D94B00BD3451 /* InvadersGameScene.swift */; };
@@ -389,9 +354,9 @@
 				2231ED3721E437B800BD3451 /* BoschSt2.sks */,
 				2231ED5021E437BA00BD3451 /* BoschSt3.h */,
 				2231ED2C21E437B800BD3451 /* BoschSt3.m */,
+				2231ED3621E437B800BD3451 /* BoschViewController.m */,
 				2231ED4721E437B900BD3451 /* BoschSt3.sks */,
 				2231ED4C21E437B900BD3451 /* BoschViewController.h */,
-				2231ED3621E437B800BD3451 /* BoschViewController.m */,
 				2231ED3021E437B800BD3451 /* harpback.mp3 */,
 				2231ED4E21E437BA00BD3451 /* poof.sks */,
 				2231ED3C21E437B800BD3451 /* spark.png */,
@@ -758,17 +723,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2231EE2B21E5D65300BD3451 /* jump.wav in Resources */,
 				2231EE6421E5D94C00BD3451 /* InvaderA_01@2x.png in Resources */,
 				2231ED6921E437BA00BD3451 /* BoschSceneThree.sks in Resources */,
 				2231EDD821E4A9F600BD3451 /* coin.wav in Resources */,
 				2231EE5E21E5D94C00BD3451 /* InvaderA_01.png in Resources */,
 				2231EE8021E5E3F200BD3451 /* sfx_seal.caf in Resources */,
-				2231EDF221E5CA4000BD3451 /* hogville_sprites.atlas in Resources */,
 				2231EE8821E5E3F200BD3451 /* Actions.sks in Resources */,
 				2231EE5C21E5D94B00BD3451 /* InvaderC_01.png in Resources */,
-				2231ED9A21E48D9B00BD3451 /* Level_4.json in Resources */,
-				2231ED9821E48D9B00BD3451 /* Level_2.json in Resources */,
 				2231EE8121E5E3F200BD3451 /* Penguin.sks in Resources */,
 				2231EE6021E5D94C00BD3451 /* InvaderA_00@2x.png in Resources */,
 				2231EE5921E5D94B00BD3451 /* InvaderB_01@2x.png in Resources */,
@@ -782,19 +743,14 @@
 				2231ED6421E437BA00BD3451 /* BoschSceneNine.sks in Resources */,
 				B58751B71DD179A700E11D6C /* LaunchScreen.storyboard in Resources */,
 				2231EDD621E4A9F600BD3451 /* flapping.wav in Resources */,
-				2231ED9B21E48D9B00BD3451 /* Level_0.json in Resources */,
 				2231EDCB21E4A9F600BD3451 /* flappy_sprites.atlas in Resources */,
 				2231EDD721E4A9F600BD3451 /* falling.wav in Resources */,
 				2231EE5721E5D94B00BD3451 /* ShipHit.wav in Resources */,
-				2231ED9121E48D9B00BD3451 /* Assets.xcassets in Resources */,
 				2231EDDA21E4A9F600BD3451 /* ding.wav in Resources */,
 				2231ED5D21E437BA00BD3451 /* harpback.mp3 in Resources */,
 				2231EE5421E5D94B00BD3451 /* AssetLicensingNotes.txt in Resources */,
 				2231EDD521E4A9F600BD3451 /* whack.wav in Resources */,
-				2231EE2C21E5D65300BD3451 /* tileSet@2x.png in Resources */,
-				2231EE3521E5D65300BD3451 /* level1.mp3 in Resources */,
 				2231ED5E21E437BA00BD3451 /* BoschGameOver.sks in Resources */,
-				2231EE2821E5D65300BD3451 /* hurt.wav in Resources */,
 				2231ED5721E437BA00BD3451 /* BoschSceneEight.sks in Resources */,
 				2231EE5621E5D94B00BD3451 /* ShipBullet.wav in Resources */,
 				2231ED7421E437BA00BD3451 /* birdanima.atlas in Resources */,
@@ -802,43 +758,32 @@
 				2231EE7D21E5E3F200BD3451 /* Bear.sks in Resources */,
 				2231ED6F21E437BA00BD3451 /* BoschSceneFour.sks in Resources */,
 				2231ED6621E437BA00BD3451 /* BoschSceneTwo.sks in Resources */,
-				2231EDF721E5CA4000BD3451 /* Images.xcassets in Resources */,
 				2231EE6621E5D94C00BD3451 /* Ship@2x.png in Resources */,
 				2231ED5821E437BA00BD3451 /* BoschSceneFive.sks in Resources */,
-				2231EDF321E5CA4000BD3451 /* bg_2_grassy.png in Resources */,
 				2231EE5A21E5D94B00BD3451 /* Ship.png in Resources */,
 				2231EE6121E5D94C00BD3451 /* InvaderB_00@2x.png in Resources */,
 				2231EE6321E5D94C00BD3451 /* InvaderB_00.png in Resources */,
-				2231EE3121E5D65300BD3451 /* level1.tmx in Resources */,
-				2231EE3321E5D65300BD3451 /* replay@2x.png in Resources */,
 				2231EE7B21E5E3F200BD3451 /* Seal.sks in Resources */,
 				2231EDD921E4A9F600BD3451 /* pop.wav in Resources */,
 				2231EE5F21E5D94C00BD3451 /* InvaderC_01@2x.png in Resources */,
 				2231EE8521E5E3F200BD3451 /* Level1.sks in Resources */,
-				2231ED9221E48D9B00BD3451 /* Sprites.atlas in Resources */,
 				2231ED5521E437BA00BD3451 /* birdGone.sks in Resources */,
 				2231EE8721E5E3F200BD3451 /* SealExplosion.sks in Resources */,
 				2231EE6521E5D94C00BD3451 /* InvaderC_00@2x.png in Resources */,
 				2231EDD421E4A9F600BD3451 /* hitGround.wav in Resources */,
 				2231ED5C21E437BA00BD3451 /* BoschSceneStart.sks in Resources */,
-				2231EDF421E5CA4000BD3451 /* bg_1_dusty.png in Resources */,
 				2231EE9421E5E87F00BD3451 /* MainMenuScene.sks in Resources */,
 				2231ED6221E437BA00BD3451 /* BoschSt2.sks in Resources */,
 				2231ED7321E437BA00BD3451 /* poof.sks in Resources */,
 				2231EE5B21E5D94B00BD3451 /* InvaderC_00.png in Resources */,
 				B58751B41DD179A700E11D6C /* Assets.xcassets in Resources */,
 				2231ED6321E437BA00BD3451 /* applehit.mp3 in Resources */,
-				2231EE2F21E5D65300BD3451 /* koalio_sprites.atlas in Resources */,
 				2231EDCA21E4A9F600BD3451 /* backgrounds.atlas in Resources */,
-				2231ED9921E48D9B00BD3451 /* Level_3.json in Resources */,
 				2231EE7F21E5E3F200BD3451 /* spark2.png in Resources */,
 				2231ED6E21E437BA00BD3451 /* BoschSt3.sks in Resources */,
 				2231ED7521E437BA00BD3451 /* BoschSceneSeven.sks in Resources */,
-				2231ED9C21E48D9B00BD3451 /* Level_1.json in Resources */,
 				B58751B21DD179A700E11D6C /* Main.storyboard in Resources */,
 				2231ED5B21E437BA00BD3451 /* birdau.mp3 in Resources */,
-				2231EE2921E5D65300BD3451 /* replay.png in Resources */,
-				2231EE3421E5D65300BD3451 /* tileSet.png in Resources */,
 				2231EE6221E5D94C00BD3451 /* InvaderB_01.png in Resources */,
 				2231EE5821E5D94B00BD3451 /* InvaderHit.wav in Resources */,
 				2231ED6721E437BA00BD3451 /* spark.png in Resources */,
@@ -852,38 +797,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2231EDF621E5CA4000BD3451 /* HogvilleScene.m in Sources */,
-				2231EE2A21E5D65300BD3451 /* LFCGzipUtility.m in Sources */,
 				2231EE9121E5E4B600BD3451 /* Int+Extensions.swift in Sources */,
 				2231EE7C21E5E3F200BD3451 /* MainMenuScene.swift in Sources */,
 				2231ED6021E437BA00BD3451 /* BoschSceneSix.m in Sources */,
-				2231ED9321E48D9B00BD3451 /* Extensions.swift in Sources */,
 				2231EE0F21E5D5C600BD3451 /* SKTEffects.m in Sources */,
-				2231ED9421E48D9B00BD3451 /* Cookie.swift in Sources */,
-				2231EE2E21E5D65300BD3451 /* KoalioViewController.m in Sources */,
 				2231ED7621E437BA00BD3451 /* BoschSceneFour.m in Sources */,
 				2231EE7A21E5E3F200BD3451 /* MSReferenceNode.swift in Sources */,
 				2231ED7B21E467FD00BD3451 /* SettingsViewController.swift in Sources */,
 				2231EE0D21E5D5C600BD3451 /* SKEmitterNode+SKTExtras.m in Sources */,
 				2231EE0E21E5D5C600BD3451 /* SKTAudio.m in Sources */,
 				2231ED7221E437BA00BD3451 /* BoschSceneEight.m in Sources */,
-				2231ED9E21E48D9B00BD3451 /* Level.swift in Sources */,
 				2231EE8221E5E3F200BD3451 /* MSButtonNode.swift in Sources */,
 				2231EDDB21E4A9F600BD3451 /* FlappyViewController.m in Sources */,
-				2231EE3621E5D65300BD3451 /* Player.m in Sources */,
 				2231ED6D21E437BA00BD3451 /* BoschSceneSeven.m in Sources */,
 				2231EDDC21E4A9F600BD3451 /* FlappyScene.m in Sources */,
 				2231ED7D21E481BE00BD3451 /* AppDelegate.swift in Sources */,
-				2231EDF521E5CA4000BD3451 /* HogvilleViewController.m in Sources */,
 				2231EE1021E5D5C600BD3451 /* SKTTimingFunctions.m in Sources */,
-				2231ED9021E48D9B00BD3451 /* CrunchGameViewController.swift in Sources */,
 				2231EE9021E5E4B600BD3451 /* CGVector+Extensions.swift in Sources */,
 				2231EE1121E5D5C600BD3451 /* SKNode+SKTDebugDraw.m in Sources */,
 				2231EE7E21E5E3F200BD3451 /* PenguinsGameViewController.swift in Sources */,
-				2231ED9521E48D9B00BD3451 /* Array2D.swift in Sources */,
 				2231ED5A21E437BA00BD3451 /* BoschSt3.m in Sources */,
 				2231EE8F21E5E4B600BD3451 /* CGPoint+Extensions.swift in Sources */,
-				2231ED9D21E48D9B00BD3451 /* Tile.swift in Sources */,
 				2231EE5221E5D94B00BD3451 /* InvadersGameOverScene.swift in Sources */,
 				2231ED6B21E437BA00BD3451 /* BoschSceneStart.m in Sources */,
 				2231ED6A21E437BA00BD3451 /* BoschSceneNine.m in Sources */,
@@ -891,13 +825,9 @@
 				2231EE5121E5D94B00BD3451 /* InvadersGameViewController.swift in Sources */,
 				2231ED7021E437BA00BD3451 /* BoschSt2.m in Sources */,
 				2231ED6121E437BA00BD3451 /* BoschViewController.m in Sources */,
-				2231EDF021E5CA4000BD3451 /* Pig.m in Sources */,
 				2231EE0A21E5D5C600BD3451 /* SKAction+SKTSpecialEffects.m in Sources */,
 				2231EE8E21E5E4B600BD3451 /* Vector3.swift in Sources */,
-				2231EE3221E5D65300BD3451 /* JSTileMap.m in Sources */,
 				2231ED5621E437BA00BD3451 /* BoschSceneThree.m in Sources */,
-				2231EE2D21E5D65300BD3451 /* GameLevelScene.m in Sources */,
-				2231ED9721E48D9B00BD3451 /* CrunchGameScene.swift in Sources */,
 				2231EE9221E5E4B600BD3451 /* CGFloat+Extensions.swift in Sources */,
 				2231EE5321E5D94B00BD3451 /* InvadersGameScene.swift in Sources */,
 				2231ED7821E437BA00BD3451 /* BoschSceneFive.m in Sources */,
