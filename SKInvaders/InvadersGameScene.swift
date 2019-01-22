@@ -23,6 +23,10 @@
 import SpriteKit
 import CoreMotion
 
+protocol InvadersGameSceneDelegate: AnyObject {
+    func didFinishGame(_ scene: InvadersGameScene)
+}
+
 class InvadersGameScene: SKScene, SKPhysicsContactDelegate {
   
   // Private GameScene Properties
@@ -47,6 +51,8 @@ class InvadersGameScene: SKScene, SKPhysicsContactDelegate {
   let kMinInvaderBottomHeight: Float = 32.0
   var gameEnding: Bool = false
   
+  weak var viewDelegate: InvadersGameSceneDelegate?
+    
   enum InvaderType {
     case a
     case b
@@ -99,7 +105,6 @@ class InvadersGameScene: SKScene, SKPhysicsContactDelegate {
   // Scene Setup and Content Creation
   
   override func didMove(to view: SKView) {
-    
     if (!self.contentCreated) {
       self.createContent()
       self.contentCreated = true
@@ -107,7 +112,7 @@ class InvadersGameScene: SKScene, SKPhysicsContactDelegate {
       physicsWorld.contactDelegate = self
     }
   }
-  
+
   func createContent() {
     physicsBody = SKPhysicsBody(edgeLoopFrom: frame)
     physicsBody!.categoryBitMask = kSceneEdgeCategory
@@ -143,6 +148,7 @@ class InvadersGameScene: SKScene, SKPhysicsContactDelegate {
     
     // 2
     let invader = SKSpriteNode(texture: invaderTextures[0])
+    invader.size = CGSize(width: 24, height: 16)
     invader.name = InvaderType.name
     
     // 3
@@ -206,6 +212,8 @@ class InvadersGameScene: SKScene, SKPhysicsContactDelegate {
   
   func makeShip() -> SKNode {
     let ship = SKSpriteNode(imageNamed: "Ship.png")
+    ship.size = CGSize(width: 30, height: 16)
+    
     ship.name = kShipName
     
     // 1
@@ -642,9 +650,7 @@ class InvadersGameScene: SKScene, SKPhysicsContactDelegate {
       motionManager.stopAccelerometerUpdates()
       
       // 3
-      let gameOverScene: InvadersGameOverScene = InvadersGameOverScene(size: size)
-      
-      view?.presentScene(gameOverScene, transition: SKTransition.doorsOpenHorizontal(withDuration: 1.0))
+      viewDelegate?.didFinishGame(self)
     }
   }
   

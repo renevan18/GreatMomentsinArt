@@ -37,7 +37,8 @@ class InvadersGameViewController: UIViewController {
     skView.ignoresSiblingOrder = true
     
     // Create and configure the scene.
-    let scene = InvadersGameScene(size: skView.frame.size)
+    let scene = InvadersGameScene(size: skView.frame.size.toPortrait())
+    scene.viewDelegate = self
     skView.presentScene(scene)
     
     // Pause the view (and thus the game) when the app is interrupted or backgrounded
@@ -51,7 +52,7 @@ class InvadersGameViewController: UIViewController {
   }
   
   override var shouldAutorotate: Bool {
-    return false
+    return true
   }
   
   override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
@@ -73,4 +74,10 @@ class InvadersGameViewController: UIViewController {
     skView.isPaused = false
   }
   
+}
+
+extension InvadersGameViewController: InvadersGameSceneDelegate {
+    func didFinishGame(_ scene: InvadersGameScene) {
+        performSegue(withIdentifier: "backToMainMenu", sender: self)
+    }
 }

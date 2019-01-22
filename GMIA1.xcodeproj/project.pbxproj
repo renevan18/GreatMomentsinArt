@@ -109,6 +109,8 @@
 		2231EE9121E5E4B600BD3451 /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231EE8C21E5E4B600BD3451 /* Int+Extensions.swift */; };
 		2231EE9221E5E4B600BD3451 /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231EE8D21E5E4B600BD3451 /* CGFloat+Extensions.swift */; };
 		2231EE9421E5E87F00BD3451 /* MainMenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2231EE9321E5E50A00BD3451 /* MainMenuScene.sks */; };
+		227E5D7321F6E1D9002898A1 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227E5D7221F6E1D9002898A1 /* MainMenuViewController.swift */; };
+		227E5D7521F6ED3A002898A1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227E5D7421F6ED3A002898A1 /* Extensions.swift */; };
 		B58751B21DD179A700E11D6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58751B01DD179A700E11D6C /* Main.storyboard */; };
 		B58751B41DD179A700E11D6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B58751B31DD179A700E11D6C /* Assets.xcassets */; };
 		B58751B71DD179A700E11D6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58751B51DD179A700E11D6C /* LaunchScreen.storyboard */; };
@@ -286,6 +288,8 @@
 		2231EE8C21E5E4B600BD3451 /* Int+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
 		2231EE8D21E5E4B600BD3451 /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
 		2231EE9321E5E50A00BD3451 /* MainMenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenuScene.sks; sourceTree = "<group>"; };
+		227E5D7221F6E1D9002898A1 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		227E5D7421F6ED3A002898A1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		B58751A41DD179A700E11D6C /* GMIA1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GMIA1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58751B11DD179A700E11D6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B58751B31DD179A700E11D6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -560,19 +564,19 @@
 		2231EE4221E5D94B00BD3451 /* Sprite Images */ = {
 			isa = PBXGroup;
 			children = (
-				2231EE4321E5D94B00BD3451 /* InvaderB_01@2x.png */,
-				2231EE4421E5D94B00BD3451 /* Ship.png */,
-				2231EE4521E5D94B00BD3451 /* InvaderC_00.png */,
-				2231EE4621E5D94B00BD3451 /* InvaderC_01.png */,
 				2231EE4721E5D94B00BD3451 /* InvaderA_00.png */,
-				2231EE4821E5D94B00BD3451 /* InvaderA_01.png */,
-				2231EE4921E5D94B00BD3451 /* InvaderC_01@2x.png */,
 				2231EE4A21E5D94B00BD3451 /* InvaderA_00@2x.png */,
+				2231EE4821E5D94B00BD3451 /* InvaderA_01.png */,
+				2231EE4E21E5D94B00BD3451 /* InvaderA_01@2x.png */,
+				2231EE4D21E5D94B00BD3451 /* InvaderB_00.png */,
 				2231EE4B21E5D94B00BD3451 /* InvaderB_00@2x.png */,
 				2231EE4C21E5D94B00BD3451 /* InvaderB_01.png */,
-				2231EE4D21E5D94B00BD3451 /* InvaderB_00.png */,
-				2231EE4E21E5D94B00BD3451 /* InvaderA_01@2x.png */,
+				2231EE4321E5D94B00BD3451 /* InvaderB_01@2x.png */,
+				2231EE4521E5D94B00BD3451 /* InvaderC_00.png */,
 				2231EE4F21E5D94B00BD3451 /* InvaderC_00@2x.png */,
+				2231EE4621E5D94B00BD3451 /* InvaderC_01.png */,
+				2231EE4921E5D94B00BD3451 /* InvaderC_01@2x.png */,
+				2231EE4421E5D94B00BD3451 /* Ship.png */,
 				2231EE5021E5D94B00BD3451 /* Ship@2x.png */,
 			);
 			path = "Sprite Images";
@@ -640,6 +644,8 @@
 				2231ED7921E467FD00BD3451 /* GMIA1-Bridging-Header.h */,
 				2231ED7C21E481BE00BD3451 /* AppDelegate.swift */,
 				2231ED7A21E467FD00BD3451 /* SettingsViewController.swift */,
+				227E5D7221F6E1D9002898A1 /* MainMenuViewController.swift */,
+				227E5D7421F6ED3A002898A1 /* Extensions.swift */,
 				B58751B01DD179A700E11D6C /* Main.storyboard */,
 				B58751B31DD179A700E11D6C /* Assets.xcassets */,
 				B58751B51DD179A700E11D6C /* LaunchScreen.storyboard */,
@@ -813,6 +819,7 @@
 				2231EDDC21E4A9F600BD3451 /* FlappyScene.m in Sources */,
 				2231ED7D21E481BE00BD3451 /* AppDelegate.swift in Sources */,
 				2231EE1021E5D5C600BD3451 /* SKTTimingFunctions.m in Sources */,
+				227E5D7321F6E1D9002898A1 /* MainMenuViewController.swift in Sources */,
 				2231EE9021E5E4B600BD3451 /* CGVector+Extensions.swift in Sources */,
 				2231EE1121E5D5C600BD3451 /* SKNode+SKTDebugDraw.m in Sources */,
 				2231EE7E21E5E3F200BD3451 /* PenguinsGameViewController.swift in Sources */,
@@ -820,6 +827,7 @@
 				2231EE8F21E5E4B600BD3451 /* CGPoint+Extensions.swift in Sources */,
 				2231EE5221E5D94B00BD3451 /* InvadersGameOverScene.swift in Sources */,
 				2231ED6B21E437BA00BD3451 /* BoschSceneStart.m in Sources */,
+				227E5D7521F6ED3A002898A1 /* Extensions.swift in Sources */,
 				2231ED6A21E437BA00BD3451 /* BoschSceneNine.m in Sources */,
 				2231EE0C21E5D5C600BD3451 /* SKNode+SKTExtras.m in Sources */,
 				2231EE5121E5D94B00BD3451 /* InvadersGameViewController.swift in Sources */,
